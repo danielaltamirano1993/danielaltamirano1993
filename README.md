@@ -19,7 +19,18 @@ https://github.com/danielaltamirano1993/ApiLeagueOfLegends
 https://github.com/danielaltamirano1993/mapsLeaflet-React
 https://github.com/danielaltamirano1993/React-Tensor-Flow
 
-Projects Angular .js
+# Projects Angular .js
+
+https://github.com/danielaltamirano1993/AngularCRUD
+https://github.com/danielaltamirano1993/Ionic-Angular
+
+# Projects Svelte .js
+
+https://github.com/danielaltamirano1993/Svelte-Firebase
+
+# Projects Angular .js
+
+https://github.com/danielaltamirano1993/AppCrudSvelte
 
 <!--
 **danielaltamirano1993/danielaltamirano1993** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
