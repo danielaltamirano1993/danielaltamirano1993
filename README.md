@@ -2,9 +2,22 @@
 
 👨‍🎓 UTE University
 
-👨‍💻 Developer | Backend | Frontend MERN | MEAN
+👨‍💻 Developer Backend
 
 ![redSaber](https://user-images.githubusercontent.com/64813513/166987258-b4c6acc4-9944-490b-887b-79cca971513c.gif)
+
+👨‍💻 Developer Frontend
+
+Projects React .js
+
+https://github.com/danielaltamirano1993/omdb-app-react
+https://github.com/danielaltamirano1993/NoteSockets
+https://github.com/danielaltamirano1993/ApiYoutubeChannel
+https://github.com/danielaltamirano1993/ApiLeagueOfLegends
+https://github.com/danielaltamirano1993/mapsLeaflet-React
+https://github.com/danielaltamirano1993/React-Tensor-Flow
+
+Projects Angular .js
 
 <!--
 **danielaltamirano1993/danielaltamirano1993** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
