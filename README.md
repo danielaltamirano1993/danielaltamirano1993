@@ -29,30 +29,43 @@ https://github.com/danielaltamirano1993/React-Tensor-Flow
 ### Projects Angular .js
 
 https://github.com/danielaltamirano1993/AngularCRUD
+
 https://github.com/danielaltamirano1993/Ionic-Angular
 
 ### Projects Svelte .js
 
 https://github.com/danielaltamirano1993/Svelte-Firebase
+
 https://github.com/danielaltamirano1993/AppCrudSvelte
 
 ### Projects JavaScript
 
 https://github.com/danielaltamirano1993/Bookjs
+
 https://github.com/danielaltamirano1993/ApiYoutubeChannel
+
 https://github.com/danielaltamirano1993/ApiLeagueOfLegends
+
 https://github.com/danielaltamirano1993/mapsLeaflet-React
+
 https://github.com/danielaltamirano1993/NoteSockets
+
 https://github.com/danielaltamirano1993/Spreadsheet-Google-API
+
 https://github.com/danielaltamirano1993/ServerWebsockets
+
 https://github.com/danielaltamirano1993/NotificacionesInBoilerplate
 
 ### Projects Java
 
 https://github.com/danielaltamirano1993/Serenity-Starter
+
 https://github.com/danielaltamirano1993/ArdUteNfcBeaconApp
+
 https://github.com/danielaltamirano1993/ArdUteNfcApp
+
 https://github.com/danielaltamirano1993/ClienteRed
+
 https://github.com/danielaltamirano1993/8-puzzle
 
 ### Projects PHP
