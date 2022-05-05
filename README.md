@@ -1,8 +1,8 @@
-<h5>  Hello there  👋 </h5>
+<h5 >  Hello there  👋 </h5>
 
 👨‍🎓 UTE University
 
-👨‍💻 Developer Backend and Frontend
+👨‍💻 Developer | Backend | Frontend MERN | MEAN
 
 ![redSaber](https://user-images.githubusercontent.com/64813513/166987258-b4c6acc4-9944-490b-887b-79cca971513c.gif)
 
