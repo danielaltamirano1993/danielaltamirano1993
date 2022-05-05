@@ -31,6 +31,17 @@ https://github.com/danielaltamirano1993/Ionic-Angular
 https://github.com/danielaltamirano1993/Svelte-Firebase
 https://github.com/danielaltamirano1993/AppCrudSvelte
 
+### Projects JavaScript
+
+https://github.com/danielaltamirano1993/Bookjs
+https://github.com/danielaltamirano1993/ApiYoutubeChannel
+https://github.com/danielaltamirano1993/ApiLeagueOfLegends
+https://github.com/danielaltamirano1993/mapsLeaflet-React
+https://github.com/danielaltamirano1993/NoteSockets
+https://github.com/danielaltamirano1993/Spreadsheet-Google-API
+https://github.com/danielaltamirano1993/ServerWebsockets
+https://github.com/danielaltamirano1993/NotificacionesInBoilerplate
+
 ### Projects Java
 
 https://github.com/danielaltamirano1993/Serenity-Starter
