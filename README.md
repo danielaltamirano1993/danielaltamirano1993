@@ -18,8 +18,6 @@ https://github.com/danielaltamirano1993/omdb-app-react
 
 https://github.com/danielaltamirano1993/NoteSockets
 
-https://github.com/danielaltamirano1993/ApiYoutubeChannel
-
 https://github.com/danielaltamirano1993/ApiLeagueOfLegends
 
 https://github.com/danielaltamirano1993/mapsLeaflet-React
@@ -40,9 +38,9 @@ https://github.com/danielaltamirano1993/AppCrudSvelte
 
 ### Projects JavaScript
 
-https://github.com/danielaltamirano1993/Bookjs
+https://github.com/danielaltamirano1993/ApiYoutubeChannel
 
-https://github.com/danielaltamirano1993/NoteSockets
+https://github.com/danielaltamirano1993/Bookjs
 
 https://github.com/danielaltamirano1993/Spreadsheet-Google-API
 
