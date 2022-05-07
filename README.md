@@ -42,6 +42,10 @@ https://github.com/danielaltamirano1993/ApiYoutubeChannel
 
 https://github.com/danielaltamirano1993/Bookjs
 
+https://github.com/danielaltamirano1993/crudRest
+
+https://github.com/danielaltamirano1993/expressBackend
+
 https://github.com/danielaltamirano1993/Spreadsheet-Google-API
 
 https://github.com/danielaltamirano1993/ServerWebsockets
