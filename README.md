@@ -34,6 +34,8 @@ https://github.com/danielaltamirano1993/Ionic-Angular
 
 https://github.com/danielaltamirano1993/Svelte-Firebase
 
+https://github.com/danielaltamirano1993/LabelInputSvelte
+
 https://github.com/danielaltamirano1993/DatepickerSvelte
 
 https://github.com/danielaltamirano1993/AppCrudSvelte
