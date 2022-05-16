@@ -68,6 +68,12 @@ https://github.com/danielaltamirano1993/ClienteRed
 
 https://github.com/danielaltamirano1993/8-puzzle
 
+### Projects SHELL
+
+https://github.com/danielaltamirano1993/docker-spark
+
+https://github.com/danielaltamirano1993/bitnamiDockerHadoop
+
 ### Projects PHP
 
 https://github.com/danielaltamirano1993/Website_Php_Colaborated
