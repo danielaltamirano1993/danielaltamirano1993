@@ -2,6 +2,14 @@
 
 ### Informatic Enginner in UTE University 👨‍🎓
 
+```javascript
+ console.log("Updated in Profile Daniel Altamirano Borja,");
+```
+
+```javascript
+ console.log("I have started to have many followers, and I have updated access links to projects of interest...");
+```
+
 ![facultad](https://user-images.githubusercontent.com/64813513/167026268-16c60b86-b014-4dd8-b900-6090699abd26.png)
 
 ## Developer Backend 👨‍💻
