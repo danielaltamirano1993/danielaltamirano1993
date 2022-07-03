@@ -38,7 +38,7 @@ https://github.com/danielaltamirano1993/AngularCRUD
 ```
 ```html
 https://github.com/danielaltamirano1993/Ionic-Angular
-
+```
 ### Projects Svelte .js
 ```html
 https://github.com/danielaltamirano1993/Svelte-Firebase
