@@ -30,6 +30,19 @@ Back-end developers also collaborate with front-end developers to translate thei
 ```
 ## Developer Frontend 👨‍💻
 ![redSaber](https://user-images.githubusercontent.com/64813513/166987258-b4c6acc4-9944-490b-887b-79cca971513c.gif)
+~~~javascript
+console.log('"What does a back-end developer do?
+A front end developer works on the “front end” of a website or application. The front end is the part of your website or app that users see and engage with. Through your front end, your visitors can absorb information, interact with page elements, and submit their information to you. Front end developers make this all possible.
+
+To build the front end, most developers use these three languages:
+
+HTML contains and organizes all the content of a web page, including text, images, links, buttons, and a lot more. You’ve probably heard of this one — every page on the web uses it.
+CSS determines how web pages look, from colors to fonts to entire page layouts. CSS interacts closely with HTML to make visually-appealing sites.
+JavaScript enables the more interactive features of websites. You can build a passable site with HTML and CSS alone, but if you want to add anything beyond static content, you’ll need to use JavaScript.
+These languages run in the user’s web browser, so they are referred to as “client-side” languages. Front end developers (and full stack developers) have deep knowledge of these. They might also have a background user experience design, graphic design, and/or other specialties that support an engaging front end.
+
+Technically, you only need HTML, CSS, and JavaScript to make a basic functional website. However, websites that implement more complex tasks require functionality behind the scenes.');
+~~~
 ## Projects React .js
 ```html
 https://github.com/danielaltamirano1993/omdb-app-react
