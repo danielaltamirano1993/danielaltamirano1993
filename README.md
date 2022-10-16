@@ -12,7 +12,7 @@
 
 ![facultad](https://user-images.githubusercontent.com/64813513/167026268-16c60b86-b014-4dd8-b900-6090699abd26.png)
 
-## Developer Backend 👨‍💻
+## back-end developer 👨‍💻
 ![backend](https://user-images.githubusercontent.com/64813513/167021686-b09b7051-45ef-4d2a-9863-db926ed3cf03.gif)
 ```javascript
 console.log("What does a back-end developer do?
@@ -28,10 +28,10 @@ Helping develop the overall architecture of the application’s back-end
 Securing the application from cyberattacks
 Back-end developers also collaborate with front-end developers to translate their functions to user-facing content in the app’s interface. Back-end developers often work with managers, architects, designers, researchers, IT security, and many more to bring web applications to life.");
 ```
-## Developer Frontend 👨‍💻
+## front-end developer 👨‍💻
 ![redSaber](https://user-images.githubusercontent.com/64813513/166987258-b4c6acc4-9944-490b-887b-79cca971513c.gif)
 ~~~javascript
-console.log('"What does a back-end developer do?
+console.log('"What does a front-end developer do?
 A front end developer works on the “front end” of a website or application. The front end is the part of your website or app that users see and engage with. Through your front end, your visitors can absorb information, interact with page elements, and submit their information to you. Front end developers make this all possible.
 
 To build the front end, most developers use these three languages:
