@@ -43,6 +43,10 @@ These languages run in the user’s web browser, so they are referred to as “c
 
 Technically, you only need HTML, CSS, and JavaScript to make a basic functional website. However, websites that implement more complex tasks require functionality behind the scenes.');
 ~~~
+## Projects GO
+```html
+https://github.com/danielaltamirano1993/App-Wails-v2.1.0
+```
 ## Projects React .js
 ```html
 https://github.com/danielaltamirano1993/omdb-app-react
