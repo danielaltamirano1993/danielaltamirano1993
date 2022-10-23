@@ -129,16 +129,31 @@ https://github.com/danielaltamirano1993/bitnamiDockerHadoop
 ```
 ## Projects PHP
 ```html
-https://github.com/danielaltamirano1993/Website_Php_Colaborated
+https://github.com/danielaltamirano1993/App-Aplus-Http
 ```
 ```html
-https://github.com/danielaltamirano1993/PhpCrudMysqli
+https://github.com/danielaltamirano1993/App-Aplus-Email
 ```
 ```html
-https://github.com/danielaltamirano1993/PhpLogin
+https://github.com/danielaltamirano1993/App-Aplus-Cli
 ```
 ```html
-https://github.com/danielaltamirano1993/UploadPDFtoBdd
+https://github.com/danielaltamirano1993/App-Aplus-Image
+```
+```html
+https://github.com/danielaltamirano1993/App-Aplus-Session
+```
+```html
+https://github.com/danielaltamirano1993/App-Aplus-ProjectOne
+```
+```html
+https://github.com/danielaltamirano1993/App-Aplus-Framework
+```
+```html
+https://github.com/danielaltamirano1993/App-Aplus-Database
+```
+```html
+https://github.com/danielaltamirano1993/App-Aplus-MVC
 ```
 <!--
 **danielaltamirano1993/danielaltamirano1993** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
