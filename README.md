@@ -78,13 +78,6 @@ https://github.com/danielaltamirano1993/mapsLeaflet-React
 ```html
 https://github.com/danielaltamirano1993/React-Tensor-Flow
 ```
-### Projects Angular .js
-```html
-https://github.com/danielaltamirano1993/AngularCRUD
-```
-```html
-https://github.com/danielaltamirano1993/Ionic-Angular
-```
 ### Projects Svelte .js
 ```html
 https://github.com/danielaltamirano1993/Svelte-Firebase
@@ -145,6 +138,13 @@ https://github.com/danielaltamirano1993/docker-spark
 ```
 ```html
 https://github.com/danielaltamirano1993/bitnamiDockerHadoop
+```
+### Projects Angular .js
+```html
+https://github.com/danielaltamirano1993/AngularCRUD
+```
+```html
+https://github.com/danielaltamirano1993/Ionic-Angular
 ```
 ## Projects PHP
 ```html
