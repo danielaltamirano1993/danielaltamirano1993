@@ -62,6 +62,10 @@ https://github.com/danielaltamirano1993/App-Ontology-Go.git
 ```html
 https://github.com/danielaltamirano1993/App-Engine-Standard-Environment.git
 ```
+## Projects Phyton
+```html
+https://github.com/danielaltamirano1993/App-Texts-Telegram.git
+```
 ## Projects React .js
 ```html
 https://github.com/danielaltamirano1993/omdb-app-react
