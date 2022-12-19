@@ -64,6 +64,9 @@ https://github.com/danielaltamirano1993/App-Engine-Standard-Environment.git
 ```
 ## Projects Phyton
 ```html
+https://github.com/danielaltamirano1993/App-Django-Crud
+```
+```html
 https://github.com/danielaltamirano1993/App-Texts-Telegram.git
 ```
 ```html
