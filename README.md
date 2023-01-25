@@ -54,7 +54,7 @@ https://github.com/danielaltamirano1993/App-Genome-Vala
 ```
 ## Projects GO
 ```html
-https://github.com/danielaltamirano1993/Awesome-Go-App
+https://github.com/danielaltamirano1993/App-Awesome-Go
 ```
 ```html
 https://github.com/danielaltamirano1993/App-Outh2-GO
