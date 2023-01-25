@@ -49,6 +49,9 @@ Technically, you only need HTML, CSS, and JavaScript to make a basic functional 
 ```html
 https://github.com/danielaltamirano1993/App-Snippet-Pixxie
 ```
+```html
+https://github.com/danielaltamirano1993/App-Genome-Vala
+```
 ## Projects GO
 ```html
 https://github.com/danielaltamirano1993/App-Vuln-Go
