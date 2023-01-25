@@ -70,6 +70,9 @@ https://github.com/danielaltamirano1993/App-Engine-Standard-Environment
 ```
 ## Projects Phyton
 ```html
+https://github.com/danielaltamirano1993/App-Django-Render
+```
+```html
 https://github.com/danielaltamirano1993/App-Django-Crud
 ```
 ```html
