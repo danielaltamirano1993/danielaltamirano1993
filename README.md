@@ -51,19 +51,19 @@ https://github.com/danielaltamirano1993/App-Snippet-Pixxie
 ```
 ## Projects GO
 ```html
-https://github.com/danielaltamirano1993/App-Web3-Go
+https://github.com/danielaltamirano1993/App-Vuln-Go
 ```
 ```html
 https://github.com/danielaltamirano1993/App-Wails-v2.1.0
 ```
 ```html
-https://github.com/danielaltamirano1993/App-Web3-Go.git
+https://github.com/danielaltamirano1993/App-Web3-Go
 ```
 ```html
-https://github.com/danielaltamirano1993/App-Ontology-Go.git
+https://github.com/danielaltamirano1993/App-Ontology-Go
 ```
 ```html
-https://github.com/danielaltamirano1993/App-Engine-Standard-Environment.git
+https://github.com/danielaltamirano1993/App-Engine-Standard-Environment
 ```
 ## Projects Phyton
 ```html
