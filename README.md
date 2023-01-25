@@ -51,6 +51,9 @@ https://github.com/danielaltamirano1993/App-Snippet-Pixxie
 ```
 ## Projects GO
 ```html
+https://github.com/danielaltamirano1993/App-Web3-Go
+```
+```html
 https://github.com/danielaltamirano1993/App-Wails-v2.1.0
 ```
 ```html
