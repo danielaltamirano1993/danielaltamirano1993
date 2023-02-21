@@ -125,6 +125,13 @@ https://github.com/danielaltamirano1993/DatepickerSvelte
 ```html
 https://github.com/danielaltamirano1993/AppCrudSvelte
 ```
+### Projects Angular .js
+```html
+https://github.com/danielaltamirano1993/AngularCRUD
+```
+```html
+https://github.com/danielaltamirano1993/Ionic-Angular
+```
 ### Projects JavaScript
 ```html
 https://github.com/danielaltamirano1993/ApiYoutubeChannel
@@ -172,13 +179,6 @@ https://github.com/danielaltamirano1993/docker-spark
 ```
 ```html
 https://github.com/danielaltamirano1993/bitnamiDockerHadoop
-```
-### Projects Angular .js
-```html
-https://github.com/danielaltamirano1993/AngularCRUD
-```
-```html
-https://github.com/danielaltamirano1993/Ionic-Angular
 ```
 ## Projects PHP
 ```html
