@@ -112,7 +112,7 @@ https://github.com/danielaltamirano1993/mapsLeaflet-React
 ```html
 https://github.com/danielaltamirano1993/React-Tensor-Flow
 ```
-### Projects Svelte .js
+## Projects Svelte .js
 ```html
 https://github.com/danielaltamirano1993/Svelte-Firebase
 ```
@@ -125,14 +125,14 @@ https://github.com/danielaltamirano1993/DatepickerSvelte
 ```html
 https://github.com/danielaltamirano1993/AppCrudSvelte
 ```
-### Projects Angular .js
+## Projects Angular .js
 ```html
 https://github.com/danielaltamirano1993/AngularCRUD
 ```
 ```html
 https://github.com/danielaltamirano1993/Ionic-Angular
 ```
-### Projects JavaScript
+## Projects JavaScript
 ```html
 https://github.com/danielaltamirano1993/ApiYoutubeChannel
 ```
@@ -170,7 +170,7 @@ https://github.com/danielaltamirano1993/ClienteRed
 ```html
 https://github.com/danielaltamirano1993/8-puzzle
 ```
-### Projects SHELL
+## Projects SHELL
 ```html
 https://github.com/danielaltamirano1993/HadoopJava
 ```
