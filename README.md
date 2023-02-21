@@ -47,6 +47,9 @@ Technically, you only need HTML, CSS, and JavaScript to make a basic functional 
 ```html
 https://github.com/danielaltamirano1993/Dotnet-Banking-App
 ```
+```html
+https://github.com/danielaltamirano1993/Shadowsocks-Windows-App
+```
 ## Projects Angular .js
 ```html
 https://github.com/danielaltamirano1993/AngularCRUD
