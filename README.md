@@ -47,7 +47,13 @@ Technically, you only need HTML, CSS, and JavaScript to make a basic functional 
 ```html
 https://github.com/danielaltamirano1993/Dotnet-Banking-App
 ```
-
+## Projects Angular .js
+```html
+https://github.com/danielaltamirano1993/AngularCRUD
+```
+```html
+https://github.com/danielaltamirano1993/Ionic-Angular
+```
 ## Projects Vala
 ```html
 https://github.com/danielaltamirano1993/App-Snippet-Pixxie
@@ -124,13 +130,6 @@ https://github.com/danielaltamirano1993/DatepickerSvelte
 ```
 ```html
 https://github.com/danielaltamirano1993/AppCrudSvelte
-```
-## Projects Angular .js
-```html
-https://github.com/danielaltamirano1993/AngularCRUD
-```
-```html
-https://github.com/danielaltamirano1993/Ionic-Angular
 ```
 ## Projects JavaScript
 ```html
