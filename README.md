@@ -45,6 +45,9 @@ Technically, you only need HTML, CSS, and JavaScript to make a basic functional 
 ~~~
 ## Projects .NET
 ```html
+https://github.com/danielaltamirano1993/Shadowsocks-Windows-App
+```
+```html
 https://github.com/danielaltamirano1993/Dotnet-Banking-App
 ```
 ```html
