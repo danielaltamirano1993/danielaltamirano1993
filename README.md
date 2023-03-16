@@ -69,6 +69,9 @@ https://github.com/danielaltamirano1993/App-Genome-Vala
 ```
 ## Projects GO
 ```html
+https://github.com/danielaltamirano1993/App-Design-paterns-Go
+```
+```html
 https://github.com/danielaltamirano1993/App-Awesome-Go
 ```
 ```html
@@ -109,6 +112,9 @@ https://github.com/danielaltamirano1993/App-Texts-Telegram.git
 https://github.com/danielaltamirano1993/App-SQLModel-Phyton
 ```
 ## Projects React .js
+```html
+https://github.com/danielaltamirano1993/Deno-Express-API-App
+```
 ```html
 https://github.com/danielaltamirano1993/omdb-app-react
 ```
