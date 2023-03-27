@@ -1,7 +1,5 @@
 ## Hello there 👋
 
-## Fork this template and enjoy!
-
 ### Informatic Enginner in UTE University 👨‍🎓
 
 ```javascript
