@@ -7,8 +7,7 @@
 ```
 
 ```javascript
- console.log("I have started to have many followers, and I have updated access links to projects 
- of interest...");
+ console.log("I have started to have many followers, and I have updated access links to projects of interest...");
 ```
 
 ![facultad](https://user-images.githubusercontent.com/64813513/167026268-16c60b86-b014-4dd8-b900-6090699abd26.png)
@@ -17,7 +16,9 @@
 ![backend](https://user-images.githubusercontent.com/64813513/167021686-b09b7051-45ef-4d2a-9863-db926ed3cf03.gif)
 ```javascript
 console.log("What does a back-end developer do?
-Back-end developers build, maintain, and debug the back-end that runs an application. As you might imagine, this is a large responsibility that can be broken down into many tasks. Depending on the company, a back-end developer will be responsible for some, most, or all of the following:
+Back-end developers build, maintain, and debug the back-end that runs an application. As you might imagine, this is a large 
+responsibility that can be broken down into many tasks. Depending on the company, a back-end developer will be responsible for
+some, most, or all of the following:
 
 Developing the systems and processes to meet the application’s specified requirements
 Maintaining databases, including data storage and retrieval, organization, backups, and security
@@ -27,7 +28,9 @@ Conducting performance optimization to increase efficiency and improve the user 
 Creating and maintaining libraries of code that can be reused by developers across the organization
 Helping develop the overall architecture of the application’s back-end
 Securing the application from cyberattacks
-Back-end developers also collaborate with front-end developers to translate their functions to user-facing content in the app’s interface. Back-end developers often work with managers, architects, designers, researchers, IT security, and many more to bring web applications to life.");
+Back-end developers also collaborate with front-end developers to translate their functions to user-facing content in the app’s 
+interface. Back-end developers often work with managers, architects, designers, researchers, IT security, and many more to bring 
+web applications to life.");
 ```
 ## front-end developer 👨‍💻
 ![redSaber](https://user-images.githubusercontent.com/64813513/166987258-b4c6acc4-9944-490b-887b-79cca971513c.gif)
