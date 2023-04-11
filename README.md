@@ -40,7 +40,7 @@ more to bring web applications to life.");
 ## front-end developer 👨‍💻
 ![redSaber](https://user-images.githubusercontent.com/64813513/166987258-b4c6acc4-9944-490b-887b-79cca971513c.gif)
 ~~~javascript
-console.timeENd('"What does a front-end developer do?
+console.timeEnd('"What does a front-end developer do?
 A front end developer works on the “front end” of a website or application. The front end is the part of your website or app that users see and engage with. Through your front end, your visitors can absorb information, interact with page elements, and submit their information to you. Front end developers make this all possible.
 
 To build the front end, most developers use these three languages:
