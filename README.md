@@ -8,11 +8,11 @@
 ```
 
 ```javascript
- console.log("PLEASE I WANT 1 REPOSITORY WITH 16 Stars PLEASE! PLEASE!");
+ console.warn("PLEASE I WANT 1 REPOSITORY WITH 16 Stars PLEASE! PLEASE!");
 ```
 
 ```javascript
- console.log("I have started to have many followers, and I have updated access links to projects of interest...");
+ console.warn("I have started to have many followers, and I have updated access links to projects of interest...");
 ```
 
 ![facultad](https://user-images.githubusercontent.com/64813513/167026268-16c60b86-b014-4dd8-b900-6090699abd26.png)
