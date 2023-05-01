@@ -66,13 +66,6 @@ https://github.com/danielaltamirano1993/AngularCRUD
 ```html
 https://github.com/danielaltamirano1993/Ionic-Angular
 ```
-## Projects Vala
-```html
-https://github.com/danielaltamirano1993/App-Snippet-Pixxie
-```
-```html
-https://github.com/danielaltamirano1993/App-Genome-Vala
-```
 ## Projects GO
 ```html
 https://github.com/danielaltamirano1993/App-Design-paterns-Go
@@ -201,6 +194,13 @@ https://github.com/danielaltamirano1993/ClienteRed
 ```
 ```html
 https://github.com/danielaltamirano1993/8-puzzle
+```
+## Projects Vala
+```html
+https://github.com/danielaltamirano1993/App-Snippet-Pixxie
+```
+```html
+https://github.com/danielaltamirano1993/App-Genome-Vala
 ```
 ## Projects SHELL
 ```html
