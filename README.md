@@ -44,7 +44,7 @@ console.timeEnd('"What does a front-end developer do?
 A front end developer works on the “front end” of a website or application.
 The front end is the part of your website or app that users see and engage with.
 Through your front end, your visitors can absorb information, interact with page elements, and submit their information to
- you. Front end developers make this all possible.
+you. Front end developers make this all possible.
 
 To build the front end, most developers use these three languages:
 
@@ -61,8 +61,8 @@ Front end developers (and full stack developers) have deep knowledge of these.
 They might also have a background user experience design, graphic design, and/or other specialties that support an
 engaging front end. Technically, you only need HTML, CSS, and JavaScript to make a basic functional website. However,
 websites that implement more complex tasks require functionality behind the scenes.');
-
 ~~~
+
 ## Projects .NET
 ```html
 https://github.com/danielaltamirano1993/Shadowsocks-Windows-App
