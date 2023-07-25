@@ -28,11 +28,13 @@ for some, most, or all of the following:
 Developing the systems and processes to meet the application’s specified requirements
 Maintaining databases, including data storage and retrieval, organization, backups, and security
 Finding and fixing bugs in the back-end code
+
 Managing any APIs the company uses to integrate applications, both externally and internally
 Conducting performance optimization to increase efficiency and improve the user experience
 Creating and maintaining libraries of code that can be reused by developers across the organization
 Helping develop the overall architecture of the application’s back-end
 Securing the application from cyberattacks
+
 Back-end developers also collaborate with front-end developers to translate their functions to user-facing content in the 
 app’s interface. Back-end developers often work with managers, architects, designers, researchers, IT security, and many 
 more to bring web applications to life.");
@@ -71,8 +73,6 @@ websites that implement more complex tasks require functionality behind the scen
 - Opción 3
 
 </details>
-
-
 
 ## Projects .NET
 ```html
