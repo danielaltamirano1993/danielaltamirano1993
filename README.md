@@ -69,7 +69,8 @@ websites that implement more complex tasks require functionality behind the scen
 
 <details><summary>Pinned</summary>
 
-- Opción 1 (Public)
+- ```html https://github.com/danielaltamirano1993/Shadowsocks-Windows-App```
+
 - Opción 2 (Public)
 - Opción 3 (Public)</details>
 
