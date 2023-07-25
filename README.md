@@ -67,14 +67,11 @@ engaging front end. Technically, you only need HTML, CSS, and JavaScript to make
 websites that implement more complex tasks require functionality behind the scenes.');
 ~~~
 
-<details>
-<summary>Opciones</summary>
+<details><summary>Pinned</summary>
 
-- Opción 1
-- Opción 2
-- Opción 3
-
-</details>
+- Opción 1 (Public)
+- Opción 2 (Public)
+- Opción 3 (Public)</details>
 
 ## Projects .NET
 
@@ -135,6 +132,7 @@ https://github.com/danielaltamirano1993/App-Engine-Standard-Environment
 ```
 
 ## Projects Phyton
+
 ```html
 https://github.com/danielaltamirano1993/Linear-Regression-App
 ```
