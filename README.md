@@ -63,6 +63,17 @@ engaging front end. Technically, you only need HTML, CSS, and JavaScript to make
 websites that implement more complex tasks require functionality behind the scenes.');
 ~~~
 
+<details>
+<summary>Opciones</summary>
+
+- Opción 1
+- Opción 2
+- Opción 3
+
+</details>
+
+
+
 ## Projects .NET
 ```html
 https://github.com/danielaltamirano1993/Shadowsocks-Windows-App
