@@ -39,7 +39,9 @@ Back-end developers also collaborate with front-end developers to translate thei
 app’s interface. Back-end developers often work with managers, architects, designers, researchers, IT security, and many 
 more to bring web applications to life.");
 ```
+
 ## front-end developer 👨‍💻
+
 ![redSaber](https://user-images.githubusercontent.com/64813513/166987258-b4c6acc4-9944-490b-887b-79cca971513c.gif)
 ~~~javascript
 console.timeEnd('"What does a front-end developer do?
