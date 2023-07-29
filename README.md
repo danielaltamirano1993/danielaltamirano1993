@@ -169,6 +169,17 @@ https://github.com/danielaltamirano1993/App-Snippet-Pixxie
 https://github.com/danielaltamirano1993/App-Genome-Vala
 ```
 
+## Projects Typescript
+
+```html
+[https://github.com/danielaltamirano1993/App-Genome-Vala](https://github.com/danielaltamirano1993/backEnd-Medico-NET-App)
+```
+
+```html
+https://github.com/danielaltamirano1993/Deno-Express-API-App
+
+```
+
 ## Projects SHELL
 
 ```html
