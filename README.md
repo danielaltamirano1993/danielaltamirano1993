@@ -8,10 +8,6 @@
 ```
 
 ```javascript
- console.warn("PLEASE I WANT 1 REPOSITORY WITH 16 Stars PLEASE! PLEASE!");
-```
-
-```javascript
  console.assert("I have started to have many followers, and I have updated access links to projects of interest...");
 ```
 
@@ -96,61 +92,17 @@ https://github.com/danielaltamirano1993/Ionic-Angular
 ## Projects GO
 
 ```html
-https://github.com/danielaltamirano1993/App-Design-paterns-Go
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Awesome-Go
-```
-
-```html
 https://github.com/danielaltamirano1993/App-Outh2-GO
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Mock-Go
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Vuln-Go
 ```
 
 ```html
 https://github.com/danielaltamirano1993/App-Wails-v2.1.0
 ```
 
-```html
-https://github.com/danielaltamirano1993/App-Web3-Go
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Ontology-Go
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Engine-Standard-Environment
-```
-
 ## Projects Phyton
 
 ```html
-https://github.com/danielaltamirano1993/Linear-Regression-App
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Django-Password-Generator
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Django-Render
-```
-
-```html
 https://github.com/danielaltamirano1993/App-Django-Crud
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Texts-Telegram.git
 ```
 
 ```html
@@ -167,34 +119,10 @@ https://github.com/danielaltamirano1993/Deno-Express-API-App
 https://github.com/danielaltamirano1993/omdb-app-react
 ```
 
-```html
-https://github.com/danielaltamirano1993/NoteSockets
-```
-
-```html
-https://github.com/danielaltamirano1993/ApiLeagueOfLegends
-```
-
-```html
-https://github.com/danielaltamirano1993/mapsLeaflet-React
-```
-
-```html
-https://github.com/danielaltamirano1993/React-Tensor-Flow
-```
-
 ## Projects Svelte .js
 
 ```html
 https://github.com/danielaltamirano1993/Svelte-Firebase
-```
-
-```html
-https://github.com/danielaltamirano1993/LabelInputSvelte
-```
-
-```html
-https://github.com/danielaltamirano1993/DatepickerSvelte
 ```
 
 ```html
@@ -204,31 +132,11 @@ https://github.com/danielaltamirano1993/AppCrudSvelte
 ## Projects JavaScript
 
 ```html
-https://github.com/danielaltamirano1993/ApiYoutubeChannel
-```
-
-```html
-https://github.com/danielaltamirano1993/Bookjs
-```
-
-```html
 https://github.com/danielaltamirano1993/crudRest
 ```
 
 ```html
-https://github.com/danielaltamirano1993/expressBackend
-```
-
-```html
-https://github.com/danielaltamirano1993/Spreadsheet-Google-API
-```
-
-```html
 https://github.com/danielaltamirano1993/ServerWebsockets
-```
-
-```html
-https://github.com/danielaltamirano1993/NotificacionesInBoilerplate
 ```
 
 ## Projects Java
@@ -238,20 +146,10 @@ https://github.com/danielaltamirano1993/Advanced-Java-App
 ```
 
 ```html
-https://github.com/danielaltamirano1993/Java-APi-Stream-App
-```
-
-```html
 https://github.com/danielaltamirano1993/Jakarta-REST-App
 ```
 
-```html
-https://github.com/danielaltamirano1993/Tecnica-Java-App
-```
-
-```html
-https://github.com/danielaltamirano1993/Serenity-Starter
-```
+## Projects UTE University
 
 ```html
 https://github.com/danielaltamirano1993/ArdUteNfcBeaconApp
@@ -259,14 +157,6 @@ https://github.com/danielaltamirano1993/ArdUteNfcBeaconApp
 
 ```html
 https://github.com/danielaltamirano1993/ArdUteNfcApp
-```
-
-```html
-https://github.com/danielaltamirano1993/ClienteRed
-```
-
-```html
-https://github.com/danielaltamirano1993/8-puzzle
 ```
 
 ## Projects Vala
