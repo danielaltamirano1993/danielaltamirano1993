@@ -69,6 +69,12 @@ websites that implement more complex tasks require functionality behind the scen
 - ```Language```
 - ```Select one```</details>
 
+## GRAPHQL
+
+```html
+https://github.com/danielaltamirano1993/GraphQL-Server-App
+```
+
 ## Projects .NET
 
 ```html
@@ -172,7 +178,7 @@ https://github.com/danielaltamirano1993/App-Genome-Vala
 ## Projects Typescript
 
 ```html
-[https://github.com/danielaltamirano1993/App-Genome-Vala](https://github.com/danielaltamirano1993/backEnd-Medico-NET-App)
+https://github.com/danielaltamirano1993/backEnd-Medico-NET-App
 ```
 
 ```html
