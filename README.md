@@ -179,39 +179,7 @@ https://github.com/danielaltamirano1993/HadoopJava
 https://github.com/danielaltamirano1993/docker-spark
 ```
 
-```html
-https://github.com/danielaltamirano1993/bitnamiDockerHadoop
-```
-
 ## Projects PHP
-
-```html
-https://github.com/danielaltamirano1993/App-Aplus-Http
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Aplus-Email
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Aplus-Cli
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Aplus-Image
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Aplus-Session
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Aplus-ProjectOne
-```
-
-```html
-https://github.com/danielaltamirano1993/App-Aplus-Framework
-```
 
 ```html
 https://github.com/danielaltamirano1993/App-Aplus-Database
