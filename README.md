@@ -69,7 +69,7 @@ websites that implement more complex tasks require functionality behind the scen
 - ```Language```
 - ```Select one```</details>
 
-## GRAPHQL
+## Projects GRAPHQL
 
 ```html
 https://github.com/danielaltamirano1993/GraphQL-Server-App
