@@ -75,25 +75,7 @@ websites that implement more complex tasks require functionality behind the scen
 https://github.com/danielaltamirano1993/GraphQL-Server-App
 ```
 
-## Projects .NET
 
-```html
-https://github.com/danielaltamirano1993/Shadowsocks-Windows-App
-```
-
-```html
-https://github.com/danielaltamirano1993/Dotnet-Banking-App
-```
-
-## Projects Angular .js
-
-```html
-https://github.com/danielaltamirano1993/AngularCRUD
-```
-
-```html
-https://github.com/danielaltamirano1993/Ionic-Angular
-```
 
 ## Projects GO
 
@@ -123,6 +105,26 @@ https://github.com/danielaltamirano1993/Deno-Express-API-App
 
 ```html
 https://github.com/danielaltamirano1993/omdb-app-react
+```
+
+## Projects .NET
+
+```html
+https://github.com/danielaltamirano1993/Shadowsocks-Windows-App
+```
+
+```html
+https://github.com/danielaltamirano1993/Dotnet-Banking-App
+```
+
+## Projects Angular .js
+
+```html
+https://github.com/danielaltamirano1993/AngularCRUD
+```
+
+```html
+https://github.com/danielaltamirano1993/Ionic-Angular
 ```
 
 ## Projects Svelte .js
