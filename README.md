@@ -84,7 +84,7 @@ https://github.com/danielaltamirano1993/App-Outh2-GO
 ```
 
 ```html
-https://github.com/danielaltamirano1993/App-Wails-v2.1.0
+https://github.com/danielaltamirano1993/App-Ontology-Go
 ```
 
 ## Projects Phyton
