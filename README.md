@@ -8,7 +8,7 @@
 ```
 
 ```javascript
- console.assert("I have started to have many followers, and I have updated access links to projects of interest...");
+ console.assert("You want to know something about me, approach the icon of my photo...");
 ```
 
 ![facultad](https://user-images.githubusercontent.com/64813513/167026268-16c60b86-b014-4dd8-b900-6090699abd26.png)
