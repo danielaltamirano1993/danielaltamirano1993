@@ -72,21 +72,21 @@ websites that implement more complex tasks require functionality behind the scen
 ## Projects Aura-Dream
 
 ```html
-https://github.com/danielaltamirano1993/Aura-Dream
+https://github.com/danielaltamirano1993/Aura-Dream-Android-Expo-App
 ```
 
 ```html
-https://github.com/danielaltamirano1993/AuraDreamTerminal
+https://github.com/danielaltamirano1993/AuraDream-Android-BLE-Terminal-App
 ```
 
 ## Projects ANT Ecuador
 
 ```html
-https://github.com/danielaltamirano1993/backend-ANT
+https://github.com/danielaltamirano1993/backend-Symphony-Revision-Vehicular-ANT
 ```
 
 ```html
-https://github.com/danielaltamirano1993/frontend-ANT
+https://github.com/danielaltamirano1993/frontend-quasar-Revision-Vehicular-ANT
 ```
 
 ## Projects UTE University
