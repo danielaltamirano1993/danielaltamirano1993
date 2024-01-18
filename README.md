@@ -11,7 +11,8 @@
  console.assert("You want to know something about me, approach the icon of my photo...");
 ```
 
-![facultad](https://user-images.githubusercontent.com/64813513/167026268-16c60b86-b014-4dd8-b900-6090699abd26.png)
+![facultad](https://github.com/danielaltamirano1993/danielaltamirano1993/assets/64813513/013e1b20-1d22-400c-88c7-57e1168d1a76)
+
 
 ## back-end developer 👨‍💻
 ![backend](https://user-images.githubusercontent.com/64813513/167021686-b09b7051-45ef-4d2a-9863-db926ed3cf03.gif)
