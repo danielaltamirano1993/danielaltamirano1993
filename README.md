@@ -159,6 +159,16 @@ https://github.com/danielaltamirano1993/ArdUteNfcBeaconApp
 https://github.com/danielaltamirano1993/ArdUteNfcApp
 ```
 
+## Projects estrategia.ec
+
+```html
+https://github.com/danielaltamirano1993/estrategia.ec
+```
+
+```html
+https://github.com/danielaltamirano1993/UploadPDFtoBdd
+```
+
 ## Projects AwesomeWallpaper
 
 ```html
