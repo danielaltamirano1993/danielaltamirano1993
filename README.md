@@ -109,53 +109,31 @@ https://github.com/danielaltamirano1993/ArdUteNfcBeaconApp
 https://github.com/danielaltamirano1993/ArdUteNfcApp
 ```
 
-## Projects React.js
+## Projects API-Rest-Full
 
 ```html
 https://github.com/danielaltamirano1993/Deno-Express-API-App
 ```
 
-## Projects .NET
-
-
-
-## Projects Angular .js
-
-```html
-https://github.com/danielaltamirano1993/AngularCRUD
-```
-
-## Projects Svelte .js
-
-```html
-https://github.com/danielaltamirano1993/Svelte-Firebase
-```
-
-## Projects JavaScript
-
-```html
-https://github.com/danielaltamirano1993/ServerWebsockets
-```
-
-## Projects Java
-
 ```html
 https://github.com/danielaltamirano1993/Jakarta-REST-App
 ```
 
-## Projects Vala
+## Projects SOPTEC-Comunicaciones-App
 
 ```html
-https://github.com/danielaltamirano1993/App-Genome-Vala
+https://github.com/danielaltamirano1993/frontend-Angularv15-Medico-App
 ```
-
-## Projects Typescript
 
 ```html
 https://github.com/danielaltamirano1993/backEnd-Medico-NET-App
 ```
 
-## Projects PHP
+## Projects AwesomeWallpaper
+
+```html
+https://github.com/danielaltamirano1993/DesktopWallpaper
+```
 
 ```html
 https://github.com/danielaltamirano1993/App-Aplus-Database
