@@ -72,11 +72,11 @@ websites that implement more complex tasks require functionality behind the scen
 ## Projects Innovalat
 
 ```html
-https://github.com/danielaltamirano1993/Innovalat-Key-P12
+https://github.com/danielaltamirano1993/Innovalat-Golang-Key-P12
 ```
 
 ```html
-https://github.com/danielaltamirano1993/Go-Container
+https://github.com/danielaltamirano1993/Golang-Container
 ```
 
 ## Projects Aura-Dream
@@ -122,11 +122,31 @@ https://github.com/danielaltamirano1993/backEnd-Medico-NET-App
 ## Projects BRAVE Software
 
 ```html
-https://github.com/danielaltamirano1993/Daniel-Portfolio
+https://github.com/danielaltamirano1993/How-to-Trade-Bitcoin-Futures-_-Crypto-Futures-Trading-Front-End
 ```
 
 ```html
-https://github.com/danielaltamirano1993/Personal-Portfolios-App
+https://github.com/danielaltamirano1993/Crypto-Exchange-AAX-_-Buy-Sell-Bitcoin-Ether-and-Altcoins-Front-End
+```
+
+```html
+https://github.com/danielaltamirano1993/QuestionsBitcoin-crypto-savings-FrontEnd
+```
+
+```html
+https://github.com/danielaltamirano1993/Vemos-Crypto-en-tu-Futuro_files
+```
+
+```html
+https://github.com/danielaltamirano1993/Own-Crypto_files
+```
+
+```html
+https://github.com/danielaltamirano1993/Earn-Crypto-Interest-Get-up-to-18-APR-Nexo_files
+```
+
+```html
+https://github.com/danielaltamirano1993/Crypto-Price-App
 ```
 
 ## Projects UTE University
