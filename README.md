@@ -179,6 +179,18 @@ https://github.com/danielaltamirano1993/Deno-Express-API-App
 https://github.com/danielaltamirano1993/Jakarta-REST-App
 ```
 
+```html
+https://github.com/danielaltamirano1993/App-Django-RestAPI
+```
+
+```html
+https://github.com/danielaltamirano1993/SQL-Server-RestAPI-Nodejs
+```
+
+```html
+https://github.com/danielaltamirano1993/LowDbRestAPI
+```
+
 ## Projects SHELL
 
 ```html
