@@ -69,6 +69,16 @@ websites that implement more complex tasks require functionality behind the scen
 - ```Language```
 - ```Select one```</details>
 
+## Projects Innovalat
+
+```html
+https://github.com/danielaltamirano1993/Innovalat-Key-P12
+```
+
+```html
+https://github.com/danielaltamirano1993/Go-Container
+```
+
 ## Projects Aura-Dream
 
 ```html
@@ -99,26 +109,6 @@ https://github.com/danielaltamirano1993/Dotnet-Banking-.NET-App
 https://github.com/danielaltamirano1993/App-SQLModel-Phyton
 ```
 
-## Projects UTE University
-
-```html
-https://github.com/danielaltamirano1993/ArdUteNfcBeaconApp
-```
-
-```html
-https://github.com/danielaltamirano1993/ArdUteNfcApp
-```
-
-## Projects API-Rest-Full
-
-```html
-https://github.com/danielaltamirano1993/Deno-Express-API-App
-```
-
-```html
-https://github.com/danielaltamirano1993/Jakarta-REST-App
-```
-
 ## Projects SOPTEC-Comunicaciones-App
 
 ```html
@@ -129,6 +119,26 @@ https://github.com/danielaltamirano1993/frontend-Angularv15-Medico-App
 https://github.com/danielaltamirano1993/backEnd-Medico-NET-App
 ```
 
+## Projects BRAVE Software
+
+```html
+https://github.com/danielaltamirano1993/Daniel-Portfolio
+```
+
+```html
+https://github.com/danielaltamirano1993/Personal-Portfolios-App
+```
+
+## Projects UTE University
+
+```html
+https://github.com/danielaltamirano1993/ArdUteNfcBeaconApp
+```
+
+```html
+https://github.com/danielaltamirano1993/ArdUteNfcApp
+```
+
 ## Projects AwesomeWallpaper
 
 ```html
@@ -137,6 +147,16 @@ https://github.com/danielaltamirano1993/DesktopWallpaper
 
 ```html
 https://github.com/danielaltamirano1993/App-Aplus-Database
+```
+
+## Projects API-Rest-Full
+
+```html
+https://github.com/danielaltamirano1993/Deno-Express-API-App
+```
+
+```html
+https://github.com/danielaltamirano1993/Jakarta-REST-App
 ```
 
 ## Projects SHELL
