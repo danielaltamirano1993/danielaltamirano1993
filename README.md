@@ -69,7 +69,7 @@ websites that implement more complex tasks require functionality behind the scen
 - ```Language```
 - ```Select one```</details>
 
-## Projects Innovalat Ecuador
+## Projects Innovalat (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/Innovalat-Golang-Key-P12
@@ -79,7 +79,7 @@ https://github.com/danielaltamirano1993/Innovalat-Golang-Key-P12
 https://github.com/danielaltamirano1993/Golang-Container
 ```
 
-## Projects Aura-Dream Ecuador
+## Projects Aura-Dream (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/Aura-Dream-Android-Expo-App
@@ -89,7 +89,7 @@ https://github.com/danielaltamirano1993/Aura-Dream-Android-Expo-App
 https://github.com/danielaltamirano1993/AuraDream-Android-BLE-Terminal-App
 ```
 
-## Projects ANT Ecuador
+## Projects ANT (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/backend-Symphony-Revision-Vehicular-ANT
@@ -109,7 +109,7 @@ https://github.com/danielaltamirano1993/Dotnet-Banking-.NET-App
 https://github.com/danielaltamirano1993/App-SQLModel-Phyton
 ```
 
-## Projects SOPTEC-Comunicaciones-App Ecuador
+## Projects SOPTEC-Comunicaciones-App (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/frontend-Angularv15-Medico-App
@@ -149,7 +149,7 @@ https://github.com/danielaltamirano1993/Earn-Crypto-Interest-Get-up-to-18-APR-Ne
 https://github.com/danielaltamirano1993/Crypto-Price-App
 ```
 
-## Projects UTE University Ecuador
+## Projects UTE University (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/ArdUteNfcBeaconApp
@@ -163,7 +163,7 @@ https://github.com/danielaltamirano1993/ArdUteNfcApp
 https://github.com/danielaltamirano1993/PORTAL_FINAL
 ```
 
-## Projects estrategia.ec Ecuador
+## Projects estrategia.ec (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/estrategia.ec
@@ -173,7 +173,7 @@ https://github.com/danielaltamirano1993/estrategia.ec
 https://github.com/danielaltamirano1993/UploadPDFtoBdd
 ```
 
-## Projects INPC Ecuador
+## Projects INPC (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/estrategia.ec
