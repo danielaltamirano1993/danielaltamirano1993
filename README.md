@@ -10,7 +10,8 @@
 ```javascript
  console.assert("You want to know something about me, approach the icon of my photo...");
 ```
-![facultad](https://github.com/danielaltamirano1993/danielaltamirano1993/assets/64813513/b4e7de9e-e8ec-4646-a28f-7ce6861aebc6)
+
+![facultad](https://github.com/danielaltamirano1993/danielaltamirano1993/assets/64813513/04e43d80-c805-4ef7-b40b-7e256062731c)
 
 ## back-end developer 👨‍💻
 ![backend](https://user-images.githubusercontent.com/64813513/167021686-b09b7051-45ef-4d2a-9863-db926ed3cf03.gif)
