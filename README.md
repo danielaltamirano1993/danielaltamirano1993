@@ -101,7 +101,7 @@ https://github.com/danielaltamirano1993/backend-Symphony-Revision-Vehicular-ANT
 https://github.com/danielaltamirano1993/frontend-quasar-Revision-Vehicular-ANT
 ```
 
-## Projects Apna-Bank Mumbai 
+## Projects Apna-Bank (Mumbai) 
 
 ```html
 https://github.com/danielaltamirano1993/Dotnet-Banking-.NET-App
@@ -185,7 +185,7 @@ https://github.com/danielaltamirano1993/EvaluacionesINPC
 https://github.com/danielaltamirano1993/AplicacionPOA
 ```
 
-## Projects AwesomeWallpaper
+## Projects AwesomeWallpaper (Russia)
 
 ```html
 https://github.com/danielaltamirano1993/DesktopWallpaper
