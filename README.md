@@ -14,7 +14,9 @@
 ![facultad](https://github.com/danielaltamirano1993/danielaltamirano1993/assets/64813513/04e43d80-c805-4ef7-b40b-7e256062731c)
 
 ## back-end developer 👨‍💻
+
 ![backend](https://user-images.githubusercontent.com/64813513/167021686-b09b7051-45ef-4d2a-9863-db926ed3cf03.gif)
+
 ```javascript
 console.time("What does a back-end developer do?
 Back-end developers build, maintain, and debug the back-end that runs an application. As you might imagine, this is a large 
@@ -176,11 +178,11 @@ https://github.com/danielaltamirano1993/UploadPDFtoBdd
 ## Projects INPC (Ecuador)
 
 ```html
-https://github.com/danielaltamirano1993/estrategia.ec
+https://github.com/danielaltamirano1993/EvaluacionesINPC
 ```
 
 ```html
-https://github.com/danielaltamirano1993/UploadPDFtoBdd
+https://github.com/danielaltamirano1993/AplicacionPOA
 ```
 
 ## Projects AwesomeWallpaper
@@ -233,4 +235,10 @@ https://github.com/danielaltamirano1993/Daniel-Portfolio
 
 ```html
 https://github.com/danielaltamirano1993/Personal-Portfolios-App
+```
+
+## STUDY 
+
+```html
+https://github.com/danielaltamirano1993/Best-Practiques-Logic-App
 ```
