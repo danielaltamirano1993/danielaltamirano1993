@@ -71,6 +71,20 @@ websites that implement more complex tasks require functionality behind the scen
 - ```Language```
 - ```Select one```</details>
 
+## Projects CONSULTI (Ecuador)
+
+```html
+https://github.com/danielaltamirano1993/backend-Streaming-Java-Mysql-App
+```
+
+```html
+https://github.com/danielaltamirano1993/Consulti-backend-Express-Node-App
+```
+
+```html
+https://github.com/danielaltamirano1993/Consulti-frontend-AngularV17.1
+```
+
 ## Projects Innovalat (Ecuador)
 
 ```html
