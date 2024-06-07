@@ -71,6 +71,26 @@ websites that implement more complex tasks require functionality behind the scen
 - ```Language```
 - ```Select one```</details>
 
+## Projects Banco Pichincha (Ecuador)
+
+```html
+
+```
+
+```html
+
+```
+
+## Projects Consejo de la Judicatura (Ecuador)
+
+```html
+
+```
+
+```html
+
+```
+
 ## Projects CONSULTI (Ecuador)
 
 ```html
