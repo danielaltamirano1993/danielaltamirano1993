@@ -74,21 +74,21 @@ websites that implement more complex tasks require functionality behind the scen
 ## Projects Banco Pichincha (Ecuador)
 
 ```html
-
+https://github.com/danielaltamirano1993/ELT-Pichincha-Sistemas-App
 ```
 
 ```html
-
+https://github.com/danielaltamirano1993/ScriptBddNews
 ```
 
 ## Projects Consejo de la Judicatura (Ecuador)
 
 ```html
-
+https://github.com/danielaltamirano1993/Planification-Judicatura-App
 ```
 
 ```html
-
+https://github.com/danielaltamirano1993/Plantilla-Web-Angular
 ```
 
 ## Projects CONSULTI (Ecuador)
