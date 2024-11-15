@@ -71,6 +71,11 @@ websites that implement more complex tasks require functionality behind the scen
 - ```Language```
 - ```Select one```</details>
 
+## Projects Cobranza PagueYa (Ecuador)
+
+```html
+https://github.com/danielaltamirano1993/BDD-Ejecucion-NET8.0-App
+```
 ## Projects Banco Pichincha (Ecuador)
 
 ```html
