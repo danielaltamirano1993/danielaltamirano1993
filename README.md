@@ -76,6 +76,11 @@ websites that implement more complex tasks require functionality behind the scen
 ```html
 https://github.com/danielaltamirano1993/BDD-Ejecucion-NET8.0-App
 ```
+
+```html
+https://github.com/danielaltamirano1993/Ejecucion-MVC-NET8.0-App
+```
+
 ## Projects Banco Pichincha (Ecuador)
 
 ```html
