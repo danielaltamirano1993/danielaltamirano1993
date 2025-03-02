@@ -65,11 +65,7 @@ engaging front end. Technically, you only need HTML, CSS, and JavaScript to make
 websites that implement more complex tasks require functionality behind the scenes.');
 ~~~
 
-<details><summary>Filter</summary>
 
-- ```Repositories```
-- ```Language```
-- ```Select one```</details>
 
 ## Projects Cobranza PagueYa (Ecuador)
 
