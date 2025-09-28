@@ -8,7 +8,7 @@
  console.assert("You want to know something about me, approach the icon of my photo...");
 ```
 
-![facultad](https://github.com/danielaltamirano1993/danielaltamirano1993/assets/64813513/04e43d80-c805-4ef7-b40b-7e256062731c)
+![facultad](https://github.com/danielaltamirano1993/danielaltamirano1993/blob/main/facultad.png?raw=true)
 
 ## back-end developer 👨‍💻
 
