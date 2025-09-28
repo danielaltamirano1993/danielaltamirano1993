@@ -1,8 +1,5 @@
 ## Hello there 👋
 
-### Informatic Enginner in UTE University 👨‍🎓
-
-
 ```javascript
  console.log("Updated in README.md of Daniel Altamirano Borja,");
 ```
