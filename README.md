@@ -69,6 +69,16 @@ websites that implement more complex tasks require functionality behind the scen
   - ```Select one```
 </details>
 
+## Projects Confiamed (Ecuador)
+
+```html
+https://github.com/danielaltamirano1993/App...
+```
+
+```html
+https://github.com/danielaltamirano1993/App...
+```
+
 ## Projects Banco Produbanco (Ecuador)
 
 ```html
