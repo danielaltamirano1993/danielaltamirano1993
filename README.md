@@ -69,6 +69,16 @@ websites that implement more complex tasks require functionality behind the scen
   - ```Select one```
 </details>
 
+## Projects ResponsibleTravel (Ecuador)
+
+```html
+https://github.com/danielaltamirano1993/ONNX-Runtime-WebNN-App
+```
+
+```html
+https://github.com/danielaltamirano1993/tapir-landingpage
+```
+
 ## Projects NETBY-EC (Ecuador)
 
 ```html
