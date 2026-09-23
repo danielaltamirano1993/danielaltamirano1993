@@ -69,6 +69,16 @@ websites that implement more complex tasks require functionality behind the scen
   - ```Select one```
 </details>
 
+## Projects UNIR (España)
+
+```html
+https://github.com/danielaltamirano1993/Pannellum-React-App
+```
+
+```html
+https://github.com/danielaltamirano1993/WalletDB
+```
+
 ## Projects ResponsibleTravel (Ecuador)
 
 ```html
