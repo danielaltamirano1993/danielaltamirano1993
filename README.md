@@ -69,6 +69,16 @@ websites that implement more complex tasks require functionality behind the scen
   - ```Select one```
 </details>
 
+## Projects NETBY-EC (Ecuador)
+
+```html
+https://github.com/danielaltamirano1993/WCF-NET-App
+```
+
+```html
+https://github.com/danielaltamirano1993/GestionDeUsuarios-Net8.0-App
+```
+
 ## Projects Confiamed (Ecuador)
 
 ```html
