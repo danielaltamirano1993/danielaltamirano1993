@@ -10,7 +10,6 @@
 
 
 
-![backend](https://user-images.githubusercontent.com/64813513/167021686-b09b7051-45ef-4d2a-9863-db926ed3cf03.gif)
 
 
 
@@ -25,7 +24,6 @@
   - ```Select one```
 </details>
 
-## Projects UNIR (España)
 
 ```html
 https://github.com/danielaltamirano1993/Pannellum-React-App
@@ -35,7 +33,6 @@ https://github.com/danielaltamirano1993/Pannellum-React-App
 https://github.com/danielaltamirano1993/WalletDB
 ```
 
-## Projects ResponsibleTravel (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/ONNX-Runtime-WebNN-App
@@ -45,7 +42,6 @@ https://github.com/danielaltamirano1993/ONNX-Runtime-WebNN-App
 https://github.com/danielaltamirano1993/tapir-landingpage
 ```
 
-## Projects NETBY-EC (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/WCF-NET-App
@@ -55,7 +51,6 @@ https://github.com/danielaltamirano1993/WCF-NET-App
 https://github.com/danielaltamirano1993/GestionDeUsuarios-Net8.0-App
 ```
 
-## Projects Confiamed (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/App...
@@ -65,7 +60,6 @@ https://github.com/danielaltamirano1993/App...
 https://github.com/danielaltamirano1993/App...
 ```
 
-## Projects Banco Produbanco (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/Evento-Tokenizacion-App
@@ -79,7 +73,6 @@ https://github.com/danielaltamirano1993/BDD-Funciones-Homologacion-App
 https://github.com/danielaltamirano1993/React-Produnet-App
 ```
 
-## Projects Cobranza PagueYa (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/BDD-Ejecucion-NET8.0-App
@@ -89,7 +82,6 @@ https://github.com/danielaltamirano1993/BDD-Ejecucion-NET8.0-App
 https://github.com/danielaltamirano1993/Ejecucion-MVC-NET8.0-App
 ```
 
-## Projects Banco Pichincha (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/ELT-Pichincha-Sistemas-App
