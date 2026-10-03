@@ -71,6 +71,17 @@ Mapa para selección técnica. Cada icono abre el lenguaje, el repositorio donde
   </tr>
 </table>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" />
+  <img src="https://img.shields.io/badge/Visual_Studio_Professional-5C2D91?style=flat-square&logo=visualstudio&logoColor=white" alt="Visual Studio Professional" />
+  <img src="https://img.shields.io/badge/NuGet-004880?style=flat-square&logo=nuget&logoColor=white" alt="NuGet" />
+  <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET 8" />
+  <img src="https://img.shields.io/badge/WCF-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="WCF" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/SQL_Profiler-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server Profiler" />
+  <img src="https://img.shields.io/badge/SSIS-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server Integration Services" />
+  <img src="https://img.shields.io/badge/IIS-0078D4?style=flat-square&logo=microsoftiis&logoColor=white" alt="IIS" />
+</p>
 
 
 
