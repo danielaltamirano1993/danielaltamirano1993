@@ -60,6 +60,17 @@ Mapa para selección técnica. Cada icono abre el lenguaje, el repositorio donde
   </tr>
 </table>
 
+<table align="center">
+  <tr>
+    <td align="center" width="110"><a href="#azure"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width="42" height="42" alt="Azure" /></a><br><sub><b>Azure</b></sub></td>
+    <td align="center" width="110"><a href="#visual-studio-professional"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" width="42" height="42" alt="Visual Studio Professional" /></a><br><sub><b>Visual Studio</b></sub></td>
+    <td align="center" width="110"><a href="#nuget"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuget/nuget-original.svg" width="42" height="42" alt="NuGet" /></a><br><sub><b>NuGet</b></sub></td>
+    <td align="center" width="110"><a href="#c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="42" height="42" alt=".NET" /></a><br><sub><b>.NET</b></sub></td>
+    <td align="center" width="110"><a href="#wcf"><img src="https://img.shields.io/badge/WCF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="WCF" /></a><br><sub><b>WCF</b></sub></td>
+    <td align="center" width="110"><a href="#sql-server-e-iis"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="42" height="42" alt="SQL Server" /></a><br><sub><b>SQL Server</b></sub></td>
+  </tr>
+</table>
+
 
 
 
