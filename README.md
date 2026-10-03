@@ -200,7 +200,6 @@ https://github.com/danielaltamirano1993/ArdUteNfcApp
 https://github.com/danielaltamirano1993/PORTAL_FINAL
 ```
 
-## Projects estrategia.ec (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/estrategia.ec
@@ -210,7 +209,6 @@ https://github.com/danielaltamirano1993/estrategia.ec
 https://github.com/danielaltamirano1993/UploadPDFtoBdd
 ```
 
-## Projects INPC (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/EvaluacionesINPC
@@ -220,7 +218,6 @@ https://github.com/danielaltamirano1993/EvaluacionesINPC
 https://github.com/danielaltamirano1993/AplicacionPOA
 ```
 
-## Projects AwesomeWallpaper (Russia)
 
 ```html
 https://github.com/danielaltamirano1993/DesktopWallpaper
@@ -230,7 +227,6 @@ https://github.com/danielaltamirano1993/DesktopWallpaper
 https://github.com/danielaltamirano1993/App-Aplus-Database
 ```
 
-## Projects API-Rest-Full
 
 ```html
 https://github.com/danielaltamirano1993/Deno-Express-API-App
@@ -252,7 +248,6 @@ https://github.com/danielaltamirano1993/SQL-Server-RestAPI-Nodejs
 https://github.com/danielaltamirano1993/LowDbRestAPI
 ```
 
-## Projects SHELL
 
 ```html
 https://github.com/danielaltamirano1993/HadoopJava
@@ -262,7 +257,6 @@ https://github.com/danielaltamirano1993/HadoopJava
 https://github.com/danielaltamirano1993/docker-spark
 ```
 
-## Projects Portfolio
 
 ```html
 https://github.com/danielaltamirano1993/Daniel-Portfolio
