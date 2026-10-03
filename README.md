@@ -31,8 +31,34 @@
   </tr>
 </table>
 
+## Experiencia por lenguaje
 
+Mapa para selección técnica. Cada icono abre el lenguaje, el repositorio donde se puede verificar y la tecnología asociada.
 
+<table align="center">
+  <tr>
+    <td align="center" width="88"><a href="#c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="42" height="42" alt="C#" /></a><br><sub><b>C#</b></sub></td>
+    <td align="center" width="88"><a href="#javascript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="42" height="42" alt="JavaScript" /></a><br><sub><b>JavaScript</b></sub></td>
+    <td align="center" width="88"><a href="#r"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" width="42" height="42" alt="R" /></a><br><sub><b>R</b></sub></td>
+    <td align="center" width="88"><a href="#java"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="42" height="42" alt="Java" /></a><br><sub><b>Java</b></sub></td>
+    <td align="center" width="88"><a href="#dockerfile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="42" height="42" alt="Dockerfile" /></a><br><sub><b>Dockerfile</b></sub></td>
+    <td align="center" width="88"><a href="#go"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="42" height="42" alt="Go" /></a><br><sub><b>Go</b></sub></td>
+    <td align="center" width="88"><a href="#typescript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="42" height="42" alt="TypeScript" /></a><br><sub><b>TypeScript</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="#html"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="42" height="42" alt="HTML" /></a><br><sub><b>HTML</b></sub></td>
+    <td align="center"><a href="#coffeescript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/coffeescript/coffeescript-original.svg" width="42" height="42" alt="CoffeeScript" /></a><br><sub><b>CoffeeScript</b></sub></td>
+    <td align="center"><a href="#python"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="42" height="42" alt="Python" /></a><br><sub><b>Python</b></sub></td>
+    <td align="center"><a href="#vala"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vala/vala-original.svg" width="42" height="42" alt="Vala" /></a><br><sub><b>Vala</b></sub></td>
+    <td align="center"><a href="#php"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="42" height="42" alt="PHP" /></a><br><sub><b>PHP</b></sub></td>
+    <td align="center"><a href="#svelte"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" width="42" height="42" alt="Svelte" /></a><br><sub><b>Svelte</b></sub></td>
+    <td align="center"><a href="#html"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="42" height="42" alt="CSS" /></a><br><sub><b>CSS</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="88"><a href="#typescript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="42" height="42" alt="React" /></a><br><sub><b>React</b></sub></td>
+    <td align="center" width="88"><a href="#typescript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" width="42" height="42" alt="Angular" /></a><br><sub><b>Angular</b></sub></td>
+  </tr>
+</table>
 
 
 
