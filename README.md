@@ -218,6 +218,7 @@ https://github.com/danielaltamirano1993/EvaluacionesINPC
 https://github.com/danielaltamirano1993/AplicacionPOA
 ```
 
+## <img src="https://api.iconify.design/mdi/image-multiple.svg?color=%238E24AA" width="26" height="26" alt="" /> Projects AwesomeWallpaper (Russia)
 
 ```html
 https://github.com/danielaltamirano1993/DesktopWallpaper
@@ -227,6 +228,7 @@ https://github.com/danielaltamirano1993/DesktopWallpaper
 https://github.com/danielaltamirano1993/App-Aplus-Database
 ```
 
+## <img src="https://api.iconify.design/mdi/api.svg?color=%23E65100" width="26" height="26" alt="" /> Projects API-Rest-Full
 
 ```html
 https://github.com/danielaltamirano1993/Deno-Express-API-App
@@ -248,6 +250,7 @@ https://github.com/danielaltamirano1993/SQL-Server-RestAPI-Nodejs
 https://github.com/danielaltamirano1993/LowDbRestAPI
 ```
 
+## <img src="https://api.iconify.design/mdi/console.svg?color=%2337474F" width="26" height="26" alt="" /> Projects SHELL
 
 ```html
 https://github.com/danielaltamirano1993/HadoopJava
@@ -257,6 +260,7 @@ https://github.com/danielaltamirano1993/HadoopJava
 https://github.com/danielaltamirano1993/docker-spark
 ```
 
+## <img src="https://api.iconify.design/mdi/account-circle.svg?color=%233949AB" width="26" height="26" alt="" /> Projects Portfolio
 
 ```html
 https://github.com/danielaltamirano1993/Daniel-Portfolio
@@ -266,7 +270,6 @@ https://github.com/danielaltamirano1993/Daniel-Portfolio
 https://github.com/danielaltamirano1993/Personal-Portfolios-App
 ```
 
-## STUDY 
 
 ```html
 https://github.com/danielaltamirano1993/Best-Practiques-Logic-App
