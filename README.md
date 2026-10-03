@@ -8,6 +8,28 @@
  console.assert("You want to know something about me, approach the icon of my photo...");
 ```
 
+<table align="center">
+  <tr>
+    <td align="center" width="280">
+      <a href="https://ute.edu.ec/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/UTE_new_logo.jpg" width="150" alt="Universidad UTE" /></a>
+      <br>
+      <b>Universidad UTE</b>
+      <br>
+      <sub>Ingeniero en Informática y Ciencias de la Computación</sub>
+      <br>
+      <sub>Ecuador</sub>
+    </td>
+    <td align="center" width="280">
+      <a href="https://www.unir.net/ingenieria/master-inteligencia-artificial/"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Logounir.png" width="150" alt="Universidad Internacional de La Rioja" /></a>
+      <br>
+      <b>UNIR</b>
+      <br>
+      <sub>Máster Universitario en Inteligencia Artificial · en curso</sub>
+      <br>
+      <sub>España</sub>
+    </td>
+  </tr>
+</table>
 
 
 
