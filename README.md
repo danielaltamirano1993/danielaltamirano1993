@@ -91,7 +91,6 @@ https://github.com/danielaltamirano1993/ELT-Pichincha-Sistemas-App
 https://github.com/danielaltamirano1993/ScriptBddNews
 ```
 
-## Projects Consejo de la Judicatura (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/Planification-Judicatura-App
@@ -101,7 +100,6 @@ https://github.com/danielaltamirano1993/Planification-Judicatura-App
 https://github.com/danielaltamirano1993/Plantilla-Web-Angular
 ```
 
-## Projects CONSULTI (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/backend-Streaming-Java-Mysql-App
@@ -115,7 +113,6 @@ https://github.com/danielaltamirano1993/Consulti-backend-Express-Node-App
 https://github.com/danielaltamirano1993/Consulti-frontend-AngularV17.1
 ```
 
-## Projects Innovalat (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/Innovalat-Golang-Key-P12
@@ -125,7 +122,6 @@ https://github.com/danielaltamirano1993/Innovalat-Golang-Key-P12
 https://github.com/danielaltamirano1993/Golang-Container
 ```
 
-## Projects Aura-Dream (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/Aura-Dream-Android-Expo-App
@@ -135,7 +131,6 @@ https://github.com/danielaltamirano1993/Aura-Dream-Android-Expo-App
 https://github.com/danielaltamirano1993/AuraDream-Android-BLE-Terminal-App
 ```
 
-## Projects ANT (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/backend-Symphony-Revision-Vehicular-ANT
@@ -145,7 +140,6 @@ https://github.com/danielaltamirano1993/backend-Symphony-Revision-Vehicular-ANT
 https://github.com/danielaltamirano1993/frontend-quasar-Revision-Vehicular-ANT
 ```
 
-## Projects Apna-Bank (Mumbai) 
 
 ```html
 https://github.com/danielaltamirano1993/Dotnet-Banking-.NET-App
@@ -155,7 +149,6 @@ https://github.com/danielaltamirano1993/Dotnet-Banking-.NET-App
 https://github.com/danielaltamirano1993/App-SQLModel-Phyton
 ```
 
-## Projects SOPTEC-Comunicaciones-App (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/frontend-Angularv15-Medico-App
@@ -165,7 +158,6 @@ https://github.com/danielaltamirano1993/frontend-Angularv15-Medico-App
 https://github.com/danielaltamirano1993/backend-.NET-Medico-App
 ```
 
-## Projects BRAVE Software (California)
 
 ```html
 https://github.com/danielaltamirano1993/How-to-Trade-Bitcoin-Futures-_-Crypto-Futures-Trading-Front-End
@@ -195,7 +187,6 @@ https://github.com/danielaltamirano1993/Earn-Crypto-Interest-Get-up-to-18-APR-Ne
 https://github.com/danielaltamirano1993/Crypto-Price-App
 ```
 
-## Projects UTE University (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/ArdUteNfcBeaconApp
