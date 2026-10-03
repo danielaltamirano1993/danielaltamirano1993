@@ -60,6 +60,7 @@ https://github.com/danielaltamirano1993/App...
 https://github.com/danielaltamirano1993/App...
 ```
 
+## <img src="https://api.iconify.design/mdi/bank.svg?color=%230D47A1" width="26" height="26" alt="" /> Projects Banco Produbanco (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/Evento-Tokenizacion-App
@@ -73,6 +74,7 @@ https://github.com/danielaltamirano1993/BDD-Funciones-Homologacion-App
 https://github.com/danielaltamirano1993/React-Produnet-App
 ```
 
+## <img src="https://api.iconify.design/mdi/cash-multiple.svg?color=%232E7D32" width="26" height="26" alt="" /> Projects Cobranza PagueYa (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/BDD-Ejecucion-NET8.0-App
@@ -82,6 +84,7 @@ https://github.com/danielaltamirano1993/BDD-Ejecucion-NET8.0-App
 https://github.com/danielaltamirano1993/Ejecucion-MVC-NET8.0-App
 ```
 
+## <img src="https://api.iconify.design/mdi/bank.svg?color=%23F57F17" width="26" height="26" alt="" /> Projects Banco Pichincha (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/ELT-Pichincha-Sistemas-App
@@ -91,6 +94,7 @@ https://github.com/danielaltamirano1993/ELT-Pichincha-Sistemas-App
 https://github.com/danielaltamirano1993/ScriptBddNews
 ```
 
+## <img src="https://api.iconify.design/mdi/scale-balance.svg?color=%234E342E" width="26" height="26" alt="" /> Projects Consejo de la Judicatura (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/Planification-Judicatura-App
@@ -100,6 +104,7 @@ https://github.com/danielaltamirano1993/Planification-Judicatura-App
 https://github.com/danielaltamirano1993/Plantilla-Web-Angular
 ```
 
+## <img src="https://api.iconify.design/mdi/briefcase.svg?color=%2300897B" width="26" height="26" alt="" /> Projects CONSULTI (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/backend-Streaming-Java-Mysql-App
