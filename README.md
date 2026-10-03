@@ -113,6 +113,7 @@ https://github.com/danielaltamirano1993/Consulti-backend-Express-Node-App
 https://github.com/danielaltamirano1993/Consulti-frontend-AngularV17.1
 ```
 
+## <img src="https://api.iconify.design/mdi/key-variant.svg?color=%236A1B9A" width="26" height="26" alt="" /> Projects Innovalat (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/Innovalat-Golang-Key-P12
@@ -122,6 +123,7 @@ https://github.com/danielaltamirano1993/Innovalat-Golang-Key-P12
 https://github.com/danielaltamirano1993/Golang-Container
 ```
 
+## <img src="https://api.iconify.design/mdi/bluetooth.svg?color=%237E57C2" width="26" height="26" alt="" /> Projects Aura-Dream (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/Aura-Dream-Android-Expo-App
@@ -131,6 +133,7 @@ https://github.com/danielaltamirano1993/Aura-Dream-Android-Expo-App
 https://github.com/danielaltamirano1993/AuraDream-Android-BLE-Terminal-App
 ```
 
+## <img src="https://api.iconify.design/mdi/car.svg?color=%23EF6C00" width="26" height="26" alt="" /> Projects ANT (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/backend-Symphony-Revision-Vehicular-ANT
@@ -140,6 +143,7 @@ https://github.com/danielaltamirano1993/backend-Symphony-Revision-Vehicular-ANT
 https://github.com/danielaltamirano1993/frontend-quasar-Revision-Vehicular-ANT
 ```
 
+## <img src="https://api.iconify.design/mdi/bank.svg?color=%23B71C1C" width="26" height="26" alt="" /> Projects Apna-Bank (Mumbai) 
 
 ```html
 https://github.com/danielaltamirano1993/Dotnet-Banking-.NET-App
@@ -149,6 +153,7 @@ https://github.com/danielaltamirano1993/Dotnet-Banking-.NET-App
 https://github.com/danielaltamirano1993/App-SQLModel-Phyton
 ```
 
+## <img src="https://api.iconify.design/mdi/stethoscope.svg?color=%2300838F" width="26" height="26" alt="" /> Projects SOPTEC-Comunicaciones-App (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/frontend-Angularv15-Medico-App
