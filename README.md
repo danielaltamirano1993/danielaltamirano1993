@@ -89,6 +89,12 @@ Stack principal. Superficie comprobable en `WCF-NET-App`, `GestionDeUsuarios-Net
 
 #### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" width="22" height="22" alt="" /> Visual Studio Professional
 
+- Solución `.sln` con proyectos SDK-style (`net8.0`) y proyectos clásicos de .NET Framework (WCF). 
+
+- Configuraciones Debug y Release, plataforma Any CPU, y publicación con perfil `.pubxml` (Web Deploy a IIS o a Azure App Service).
+- Depuración: breakpoint condicional, Watch, Immediate Window, Call Stack y Attach to Process sobre `w3wp.exe` cuando el servicio WCF ya está en un application pool de IIS.
+- WCF Test Client y Service Configuration Editor para abrir el `web.config`. Add Service Reference para generar el proxy del cliente.
+
 
 <details>
 <summary>Filter</summary>
