@@ -158,6 +158,7 @@ https://github.com/danielaltamirano1993/frontend-Angularv15-Medico-App
 https://github.com/danielaltamirano1993/backend-.NET-Medico-App
 ```
 
+## <img src="https://api.iconify.design/logos/brave.svg" width="26" height="26" alt="" /> Projects BRAVE Software (California)
 
 ```html
 https://github.com/danielaltamirano1993/How-to-Trade-Bitcoin-Futures-_-Crypto-Futures-Trading-Front-End
@@ -187,6 +188,7 @@ https://github.com/danielaltamirano1993/Earn-Crypto-Interest-Get-up-to-18-APR-Ne
 https://github.com/danielaltamirano1993/Crypto-Price-App
 ```
 
+## <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/UTE_new_logo.jpg" width="26" height="26" alt="" /> Projects UTE University (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/ArdUteNfcBeaconApp
@@ -200,6 +202,7 @@ https://github.com/danielaltamirano1993/ArdUteNfcApp
 https://github.com/danielaltamirano1993/PORTAL_FINAL
 ```
 
+## <img src="https://api.iconify.design/mdi/chart-line.svg?color=%231565C0" width="26" height="26" alt="" /> Projects estrategia.ec (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/estrategia.ec
@@ -209,6 +212,7 @@ https://github.com/danielaltamirano1993/estrategia.ec
 https://github.com/danielaltamirano1993/UploadPDFtoBdd
 ```
 
+## <img src="https://api.iconify.design/mdi/castle.svg?color=%235D4037" width="26" height="26" alt="" /> Projects INPC (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/EvaluacionesINPC
@@ -270,6 +274,7 @@ https://github.com/danielaltamirano1993/Daniel-Portfolio
 https://github.com/danielaltamirano1993/Personal-Portfolios-App
 ```
 
+## <img src="https://api.iconify.design/mdi/book-open-variant.svg?color=%232E7D32" width="26" height="26" alt="" /> STUDY 
 
 ```html
 https://github.com/danielaltamirano1993/Best-Practiques-Logic-App
