@@ -8,32 +8,10 @@
  console.assert("You want to know something about me, approach the icon of my photo...");
 ```
 
-![facultad](https://github.com/danielaltamirano1993/danielaltamirano1993/blob/main/facultad.png?raw=true)
 
-## back-end developer 👨‍💻
 
 ![backend](https://user-images.githubusercontent.com/64813513/167021686-b09b7051-45ef-4d2a-9863-db926ed3cf03.gif)
 
-```javascript
-console.time("What does a back-end developer do?
-Back-end developers build, maintain, and debug the back-end that runs an application. As you might imagine, this is a large 
-responsibility that can be broken down into many tasks. Depending on the company, a back-end developer will be responsible
-for some, most, or all of the following:
-
-Developing the systems and processes to meet the application’s specified requirements
-Maintaining databases, including data storage and retrieval, organization, backups, and security
-Finding and fixing bugs in the back-end code
-
-Managing any APIs the company uses to integrate applications, both externally and internally
-Conducting performance optimization to increase efficiency and improve the user experience
-Creating and maintaining libraries of code that can be reused by developers across the organization
-Helping develop the overall architecture of the application’s back-end
-Securing the application from cyberattacks
-
-Back-end developers also collaborate with front-end developers to translate their functions to user-facing content in the 
-app’s interface. Back-end developers often work with managers, architects, designers, researchers, IT security, and many 
-more to bring web applications to life.");
-```
 
 ## front-end developer 👨‍💻
 
