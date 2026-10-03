@@ -24,6 +24,7 @@
   - ```Select one```
 </details>
 
+## <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Logounir.png" width="26" height="26" alt="" /> Projects UNIR (España)
 
 ```html
 https://github.com/danielaltamirano1993/Pannellum-React-App
@@ -33,6 +34,7 @@ https://github.com/danielaltamirano1993/Pannellum-React-App
 https://github.com/danielaltamirano1993/WalletDB
 ```
 
+## <img src="https://api.iconify.design/mdi/earth.svg?color=%232E7D32" width="26" height="26" alt="" /> Projects ResponsibleTravel (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/ONNX-Runtime-WebNN-App
@@ -42,6 +44,7 @@ https://github.com/danielaltamirano1993/ONNX-Runtime-WebNN-App
 https://github.com/danielaltamirano1993/tapir-landingpage
 ```
 
+## <img src="https://api.iconify.design/mdi/server.svg?color=%23512BD4" width="26" height="26" alt="" /> Projects NETBY-EC (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/WCF-NET-App
@@ -51,6 +54,7 @@ https://github.com/danielaltamirano1993/WCF-NET-App
 https://github.com/danielaltamirano1993/GestionDeUsuarios-Net8.0-App
 ```
 
+## <img src="https://api.iconify.design/mdi/hospital-box.svg?color=%23C62828" width="26" height="26" alt="" /> Projects Confiamed (Ecuador)
 
 ```html
 https://github.com/danielaltamirano1993/App...
