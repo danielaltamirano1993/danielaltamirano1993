@@ -83,8 +83,11 @@ Mapa para selección técnica. Cada icono abre el lenguaje, el repositorio donde
   <img src="https://img.shields.io/badge/IIS-0078D4?style=flat-square&logo=microsoftiis&logoColor=white" alt="IIS" />
 </p>
 
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="28" height="28" alt="" /> C#
 
+Stack principal. Superficie comprobable en `WCF-NET-App`, `GestionDeUsuarios-Net8.0-App`, `Ejecucion-MVC-NET8.0-App`, `BDD-Ejecucion-NET8.0-App`, `Dotnet-Banking-.NET-App` y `backend-.NET-Medico-App`. Hay dos líneas de runtime: .NET Framework para servicios WCF hospedados en IIS, y .NET 8 para MVC, Web API y ejecución contra base de datos.
 
+#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" width="22" height="22" alt="" /> Visual Studio Professional
 
 
 <details>
