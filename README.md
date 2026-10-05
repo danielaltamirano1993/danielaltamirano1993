@@ -138,6 +138,13 @@ Misma solución .NET, publicada hacia estos recursos:
 - `Microsoft.Data.SqlClient`, pool de conexiones y transacción explícita cuando el movimiento toca más de una tabla (cobranza en `BDD-Ejecucion-NET8.0-App` y `Ejecucion-MVC-NET8.0-App`).
 - IIS: sitio, binding HTTPS, application pool de 64 bits, identidad del pool, y el feature HTTP Activation para el `.svc`.
 
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="28" height="28" alt="" /> JavaScript
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="22" height="22" alt="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="22" height="22" alt="Node.js" />
+</p>
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
