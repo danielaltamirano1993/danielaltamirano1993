@@ -145,6 +145,16 @@ Misma solución .NET, publicada hacia estos recursos:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="22" height="22" alt="Node.js" />
 </p>
 
+Cliente y también servidor. Servidor en `Consulti-backend-Express-Node-App`, `SQL-Server-RestAPI-Nodejs` y `Deno-Express-API-App`: Express, rutas REST, acceso a SQL Server o MySQL, y el puerto que consume el front. En navegador, el JavaScript de los fronts Angular, React y Quasar. 
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="28" height="28" alt="" /> TypeScript
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="22" height="22" alt="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" width="22" height="22" alt="Angular" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="22" height="22" alt="React" />
+</p>
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
