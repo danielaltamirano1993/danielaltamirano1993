@@ -104,6 +104,10 @@ Stack principal. Superficie comprobable en `WCF-NET-App`, `GestionDeUsuarios-Net
 - Paquetes de esta superficie: `Microsoft.Data.SqlClient`, `System.ServiceModel.Http` y `System.ServiceModel.NetTcp` para consumir WCF desde .NET moderno, `Newtonsoft.Json` o `System.Text.Json`, `Dapper` o `Microsoft.EntityFrameworkCore`, `Swashbuckle.AspNetCore`, y el cliente de Azure que corresponda (`Azure.Identity`, `Azure.Storage.Blobs`, `Azure.Messaging.ServiceBus`).
 - Versionado SemVer fijo, por ejemplo `8.0.2`, para que el restore sea el mismo en cada máquina. Comprobación de paquetes vulnerables con `dotnet list package --vulnerable`.
 
+#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="22" height="22" alt="" /> WCF
+
+- Modelo ABC: Address, Binding, Contract. El contrato vive en una class library aparte del host para que el cliente y el servicio compartan el ensamblado.
+- Atributos: `ServiceContract`, `OperationContract`, `DataContract`, `DataMember`, `FaultContract`. `FaultContract` es la respuesta cuando preguntan cómo viaja un error de negocio con el canal todavía abierto.
 <details>
 <summary>Filter</summary>
   - ```Repositories```
