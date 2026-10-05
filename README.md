@@ -108,6 +108,18 @@ Stack principal. Superficie comprobable en `WCF-NET-App`, `GestionDeUsuarios-Net
 
 - Modelo ABC: Address, Binding, Contract. El contrato vive en una class library aparte del host para que el cliente y el servicio compartan el ensamblado.
 - Atributos: `ServiceContract`, `OperationContract`, `DataContract`, `DataMember`, `FaultContract`. `FaultContract` es la respuesta cuando preguntan cómo viaja un error de negocio con el canal todavía abierto.
+- Bindings que hay que saber justificar:
+  - `basicHttpBinding`: SOAP 1.1, el que se publica a consumidores Java o PHP.
+  - `wsHttpBinding`: WS-Security y seguridad de mensaje.
+  - `netTcpBinding`: binario, solo intranet, con WAS y Non-HTTP Activation instalados en IIS.
+  - `webHttpBinding`: contrato expuesto como HTTP simple. En estos servicios el binding de trabajo es `basicHttpBinding`, `wsHttpBinding` o `netTcpBinding`.
+- Hosting en IIS: archivo `.svc`, activation en el application pool (Integrated, .NET CLR de Framework), y la sección `system.serviceModel` del `web.config` (`services`, `bindings`, `behaviors`, `protocolMapping`).
+- Instancing `PerCall` en servicios de banco y cobranza. `PerSession` queda para sesión con `wsHttpBinding` o `netTcpBinding`. Concurrency `Multiple` va con código que guarda su estado en la base y en variables locales del llamado.
+- `serviceThrottling`: `maxConcurrentCalls`, `maxConcurrentSessions`, `maxConcurrentInstances`.
+- Seguridad: `Transport` con HTTPS, o `TransportWithMessageCredential` si el cliente manda usuario y clave dentro del SOAP. El certificado se instala en el almacén Local Machine del servidor o se referencia desde Azure Key Vault cuando el host ya está en App Service.
+- Cliente: `ChannelFactory<T>` cuando se controla el binding en código, o el proxy de Add Service Reference cuando el consumidor es otra solución .NET Framework.
+- El host WCF permanece en .NET Framework. .NET 8 consume el servicio con los paquetes `System.ServiceModel.*`. Si el host se migra, el camino es CoreWCF. `WCF-NET-App` es la línea Framework y `GestionDeUsuarios-Net8.0-App` es la línea nueva.
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
