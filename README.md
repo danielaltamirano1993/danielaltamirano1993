@@ -196,6 +196,17 @@ Marcado de esos mismos fronts y de las landings (`tapir-landingpage` y los front
 </p>
 
 `App-Django-RestAPI` y `App-SQLModel-Phyton`, más el uso de ONNX en `ONNX-Runtime-WebNN-App`. Django REST Framework para el API, SQLModel para el modelo contra la base, y ONNX Runtime cuando el modelo ya está exportado y solo se infiere. Pregunta típica: el endpoint de Django, el `settings.py` de la base, y en ONNX si la inferencia corre en el navegador (WebNN) o en un proceso Python.
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="28" height="28" alt="" /> PHP
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="22" height="22" alt="PHP" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/symfony/symfony-original.svg" width="22" height="22" alt="Symfony" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/quasar/quasar-original.svg" width="22" height="22" alt="Quasar" />
+</p>
+
+`backend-Symphony-Revision-Vehicular-ANT` es Symfony (el nombre del repo está escrito Symphony). API de revisión vehicular, con el front en `frontend-quasar-Revision-Vehicular-ANT`. Pregunta típica: ruta y controlador de Symfony, el ORM Doctrine, y el contrato JSON que consume Quasar.
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
