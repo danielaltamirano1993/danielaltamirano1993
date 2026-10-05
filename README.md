@@ -33,8 +33,6 @@
 
 ## Experiencia por lenguaje
 
-Mapa para selección técnica. Cada icono abre el lenguaje, el repositorio donde se puede verificar y la tecnología asociada.
-
 <table align="center">
   <tr>
     <td align="center" width="88"><a href="#c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="42" height="42" alt="C#" /></a><br><sub><b>C#</b></sub></td>
