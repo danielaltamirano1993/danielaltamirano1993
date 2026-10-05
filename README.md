@@ -164,6 +164,15 @@ Angular en `Consulti-frontend-AngularV17.1`, `frontend-Angularv15-Medico-App` y 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="22" height="22" alt="CSS" />
 </p>
 
+Marcado de esos mismos fronts y de las landings (`tapir-landingpage` y los fronts de BRAVE Software). CSS define color, tipo y layout. 
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="28" height="28" alt="" /> Java
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="22" height="22" alt="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="22" height="22" alt="MySQL" />
+</p>
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
