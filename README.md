@@ -188,6 +188,14 @@ Marcado de esos mismos fronts y de las landings (`tapir-landingpage` y los front
 
 `Golang-Container` y `docker-spark`. Imagen base, `COPY` del binario o del artefacto, `EXPOSE` del puerto y el comando de arranque. 
 
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="28" height="28" alt="" /> Python
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="22" height="22" alt="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" width="22" height="22" alt="Django" />
+</p>
+
+`App-Django-RestAPI` y `App-SQLModel-Phyton`, más el uso de ONNX en `ONNX-Runtime-WebNN-App`. Django REST Framework para el API, SQLModel para el modelo contra la base, y ONNX Runtime cuando el modelo ya está exportado y solo se infiere. Pregunta típica: el endpoint de Django, el `settings.py` de la base, y en ONNX si la inferencia corre en el navegador (WebNN) o en un proceso Python.
 <details>
 <summary>Filter</summary>
   - ```Repositories```
