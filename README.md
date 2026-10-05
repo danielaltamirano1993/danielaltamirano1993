@@ -207,6 +207,13 @@ Marcado de esos mismos fronts y de las landings (`tapir-landingpage` y los front
 
 `backend-Symphony-Revision-Vehicular-ANT` es Symfony (el nombre del repo está escrito Symphony). API de revisión vehicular, con el front en `frontend-quasar-Revision-Vehicular-ANT`. Pregunta típica: ruta y controlador de Symfony, el ORM Doctrine, y el contrato JSON que consume Quasar.
 
+## Mas manejo de stacks y frontend
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" width="28" height="28" alt="" /> R
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/coffeescript/coffeescript-original.svg" width="28" height="28" alt="" /> CoffeeScript
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vala/vala-original.svg" width="28" height="28" alt="" /> Vala
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
