@@ -214,6 +214,18 @@ Marcado de esos mismos fronts y de las landings (`tapir-landingpage` y los front
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vala/vala-original.svg" width="28" height="28" alt="" /> Vala
 
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" width="28" height="28" alt="" /> Svelte
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" width="22" height="22" alt="Svelte" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="22" height="22" alt="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="22" height="22" alt="HTML" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="22" height="22" alt="CSS" />
+</p>
+
+Aparece en el gráfico de lenguajes del perfil y un front-end lo va a buscar al mismo nivel que Angular y React. Conviene anotar el componente, el store y contra qué API habla.
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
