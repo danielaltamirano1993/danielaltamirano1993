@@ -173,6 +173,15 @@ Marcado de esos mismos fronts y de las landings (`tapir-landingpage` y los front
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="22" height="22" alt="MySQL" />
 </p>
 
+`backend-Streaming-Java-Mysql-App`, `Jakarta-REST-App` y `HadoopJava`. Jakarta REST (JAX-RS) para el API, MySQL como almacén del streaming, y Hadoop en el proyecto de procesamiento. 
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="28" height="28" alt="" /> Go
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="22" height="22" alt="Go" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="22" height="22" alt="Docker" />
+</p>
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
