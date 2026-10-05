@@ -155,6 +155,15 @@ Cliente y también servidor. Servidor en `Consulti-backend-Express-Node-App`, `S
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="22" height="22" alt="React" />
 </p>
 
+Angular en `Consulti-frontend-AngularV17.1`, `frontend-Angularv15-Medico-App` y `Plantilla-Web-Angular`. React en `Pannellum-React-App` y `React-Produnet-App`. Superficie de pregunta: módulos y servicios de Angular, `HttpClient` contra el API .NET, tipado del DTO para que el JSON del back coincida con la interfaz, y la versión de Angular (15 y 17 tienen su propio `angular.json` y su propio compilador).
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="28" height="28" alt="" /> HTML
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="22" height="22" alt="HTML" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="22" height="22" alt="CSS" />
+</p>
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
