@@ -132,6 +132,12 @@ Misma solución .NET, publicada hacia estos recursos:
 - **Application Insights.** Connection string en Application settings, y el SDK de la versión de ASP.NET del proyecto, para ver la excepción del servicio y la dependencia SQL en la misma operación.
 - **Azure Service Bus.** Cola o topic, en la línea de `Evento-Tokenizacion-App`: el evento de tokenización se publica en un topic y el consumidor .NET lo procesa con `Azure.Messaging.ServiceBus`, con peek-lock y dead-letter cuando el mensaje queda pendiente de aplicar.
 
+#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="22" height="22" alt="" /> SQL Server e IIS
+
+- Procedimientos, funciones y jobs de SQL Server Agent. `BDD-Funciones-Homologacion-App` es el punto para preguntar cómo se compara el cuerpo de una función entre ambientes antes de ejecutarla.
+- `Microsoft.Data.SqlClient`, pool de conexiones y transacción explícita cuando el movimiento toca más de una tabla (cobranza en `BDD-Ejecucion-NET8.0-App` y `Ejecucion-MVC-NET8.0-App`).
+- IIS: sitio, binding HTTPS, application pool de 64 bits, identidad del pool, y el feature HTTP Activation para el `.svc`.
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
