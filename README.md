@@ -95,6 +95,14 @@ Stack principal. Superficie comprobable en `WCF-NET-App`, `GestionDeUsuarios-Net
 - Depuración: breakpoint condicional, Watch, Immediate Window, Call Stack y Attach to Process sobre `w3wp.exe` cuando el servicio WCF ya está en un application pool de IIS.
 - WCF Test Client y Service Configuration Editor para abrir el `web.config`. Add Service Reference para generar el proxy del cliente.
 
+#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuget/nuget-original.svg" width="22" height="22" alt="" /> NuGet
+
+- .NET 8 usa `PackageReference` dentro del `.csproj`. Los proyectos WCF de Framework usan `packages.config` más `HintPath` en las referencias, y ahí aparecen los binding redirects de `web.config` o `app.config` cuando dos paquetes exigen distinta versión de `Newtonsoft.Json` o de `System.Net.Http`.
+- Restore de solución: `nuget restore Nombre.sln` en Framework y `dotnet restore` en SDK-style. En pipeline el restore falla si el `nuget.config` no declara el feed.
+- `nuget.config` con `packageSources`, `clear` para heredar solo los orígenes declarados en el repositorio, y `packageSourceMapping` cuando hay un feed privado además de nuget.org.
+- Feed privado en Azure Artifacts. 
+- Paquetes de esta superficie: `Microsoft.Data.SqlClient`, `System.ServiceModel.Http` y `System.ServiceModel.NetTcp` para consumir WCF desde .NET moderno, `Newtonsoft.Json` o `System.Text.Json`, `Dapper` o `Microsoft.EntityFrameworkCore`, `Swashbuckle.AspNetCore`, y el cliente de Azure que corresponda (`Azure.Identity`, `Azure.Storage.Blobs`, `Azure.Messaging.ServiceBus`).
+- Versionado SemVer fijo, por ejemplo `8.0.2`, para que el restore sea el mismo en cada máquina. Comprobación de paquetes vulnerables con `dotnet list package --vulnerable`.
 
 <details>
 <summary>Filter</summary>
