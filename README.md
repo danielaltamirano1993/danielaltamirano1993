@@ -182,6 +182,12 @@ Marcado de esos mismos fronts y de las landings (`tapir-landingpage` y los front
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="22" height="22" alt="Docker" />
 </p>
 
+`Innovalat-Golang-Key-P12` y `Golang-Container`. El primero trabaja llave y certificado PKCS#12 (`.p12`): lectura del almacén, extracción de certificado y clave privada. El segundo es el mismo tipo de servicio empaquetado en imagen. Pregunta típica: dónde vive el `.p12` en runtime y cómo se inyecta la contraseña del almacén fuera del código fuente.
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="28" height="28" alt="" /> Dockerfile
+
+`Golang-Container` y `docker-spark`. Imagen base, `COPY` del binario o del artefacto, `EXPOSE` del puerto y el comando de arranque. 
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
