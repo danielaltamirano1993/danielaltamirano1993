@@ -120,6 +120,18 @@ Stack principal. Superficie comprobable en `WCF-NET-App`, `GestionDeUsuarios-Net
 - Cliente: `ChannelFactory<T>` cuando se controla el binding en código, o el proxy de Add Service Reference cuando el consumidor es otra solución .NET Framework.
 - El host WCF permanece en .NET Framework. .NET 8 consume el servicio con los paquetes `System.ServiceModel.*`. Si el host se migra, el camino es CoreWCF. `WCF-NET-App` es la línea Framework y `GestionDeUsuarios-Net8.0-App` es la línea nueva.
 
+#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width="22" height="22" alt="" /> Azure
+
+Misma solución .NET, publicada hacia estos recursos:
+
+- **Azure App Service.** Publicación desde Visual Studio con el perfil de App Service, plan y resource group, slot `staging` antes de `production`, y Application settings para la cadena de conexión (queda fuera del `web.config` que viaja en el paquete). Always On encendido cuando hay un servicio que mantiene el proceso en caliente.
+- **Azure SQL Database.** Misma base que las apps `BDD-Ejecucion-NET8.0-App`, `BDD-Funciones-Homologacion-App` y `ScriptBddNews`: firewall del servidor, cadena con `Encrypt=True`, y el usuario de aplicación acotado a los permisos del esquema. 
+- **Azure Key Vault.** Secretos y el certificado del endpoint WCF o del HTTPS. En App Service la referencia es `@Microsoft.KeyVault(SecretUri=...)` con la identidad administrada del App Service.
+- **Azure DevOps.** Repo, pipeline YAML con `dotnet restore`, `dotnet build -c Release`, `dotnet test` y `dotnet publish`. El feed de NuGet interno es un Azure Artifacts. La service connection apunta a la suscripción donde está el App Service.
+- **Azure Storage.** Contenedor de blobs en el flujo de `UploadPDFtoBdd`: el PDF entra al blob y en SQL Server queda la ruta y el identificador.
+- **Application Insights.** Connection string en Application settings, y el SDK de la versión de ASP.NET del proyecto, para ver la excepción del servicio y la dependencia SQL en la misma operación.
+- **Azure Service Bus.** Cola o topic, en la línea de `Evento-Tokenizacion-App`: el evento de tokenización se publica en un topic y el consumidor .NET lo procesa con `Azure.Messaging.ServiceBus`, con peek-lock y dead-letter cuando el mensaje queda pendiente de aplicar.
+
 <details>
 <summary>Filter</summary>
   - ```Repositories```
