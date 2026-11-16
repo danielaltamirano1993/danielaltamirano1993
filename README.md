@@ -81,157 +81,9 @@
   <img src="https://img.shields.io/badge/IIS-0078D4?style=flat-square&logo=microsoftiis&logoColor=white" alt="IIS" />
 </p>
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="28" height="28" alt="" /> C#
-
-Stack principal. Superficie comprobable en `WCF-NET-App`, `GestionDeUsuarios-Net8.0-App`, `Ejecucion-MVC-NET8.0-App`, `BDD-Ejecucion-NET8.0-App`, `Dotnet-Banking-.NET-App` y `backend-.NET-Medico-App`. Hay dos líneas de runtime: .NET Framework para servicios WCF hospedados en IIS, y .NET 8 para MVC, Web API y ejecución contra base de datos.
-
-#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" width="22" height="22" alt="" /> Visual Studio Professional
-
-- Solución `.sln` con proyectos SDK-style (`net8.0`) y proyectos clásicos de .NET Framework (WCF). 
-
-- Configuraciones Debug y Release, plataforma Any CPU, y publicación con perfil `.pubxml` (Web Deploy a IIS o a Azure App Service).
-- Depuración: breakpoint condicional, Watch, Immediate Window, Call Stack y Attach to Process sobre `w3wp.exe` cuando el servicio WCF ya está en un application pool de IIS.
-- WCF Test Client y Service Configuration Editor para abrir el `web.config`. Add Service Reference para generar el proxy del cliente.
-
-#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuget/nuget-original.svg" width="22" height="22" alt="" /> NuGet
-
-- .NET 8 usa `PackageReference` dentro del `.csproj`. Los proyectos WCF de Framework usan `packages.config` más `HintPath` en las referencias, y ahí aparecen los binding redirects de `web.config` o `app.config` cuando dos paquetes exigen distinta versión de `Newtonsoft.Json` o de `System.Net.Http`.
-- Restore de solución: `nuget restore Nombre.sln` en Framework y `dotnet restore` en SDK-style. En pipeline el restore falla si el `nuget.config` no declara el feed.
-- `nuget.config` con `packageSources`, `clear` para heredar solo los orígenes declarados en el repositorio, y `packageSourceMapping` cuando hay un feed privado además de nuget.org.
-- Feed privado en Azure Artifacts. 
-- Paquetes de esta superficie: `Microsoft.Data.SqlClient`, `System.ServiceModel.Http` y `System.ServiceModel.NetTcp` para consumir WCF desde .NET moderno, `Newtonsoft.Json` o `System.Text.Json`, `Dapper` o `Microsoft.EntityFrameworkCore`, `Swashbuckle.AspNetCore`, y el cliente de Azure que corresponda (`Azure.Identity`, `Azure.Storage.Blobs`, `Azure.Messaging.ServiceBus`).
-- Versionado SemVer fijo, por ejemplo `8.0.2`, para que el restore sea el mismo en cada máquina. Comprobación de paquetes vulnerables con `dotnet list package --vulnerable`.
-
-#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="22" height="22" alt="" /> WCF
-
-- Modelo ABC: Address, Binding, Contract. El contrato vive en una class library aparte del host para que el cliente y el servicio compartan el ensamblado.
-- Atributos: `ServiceContract`, `OperationContract`, `DataContract`, `DataMember`, `FaultContract`. `FaultContract` es la respuesta cuando preguntan cómo viaja un error de negocio con el canal todavía abierto.
-- Bindings que hay que saber justificar:
-  - `basicHttpBinding`: SOAP 1.1, el que se publica a consumidores Java o PHP.
-  - `wsHttpBinding`: WS-Security y seguridad de mensaje.
-  - `netTcpBinding`: binario, solo intranet, con WAS y Non-HTTP Activation instalados en IIS.
-  - `webHttpBinding`: contrato expuesto como HTTP simple. En estos servicios el binding de trabajo es `basicHttpBinding`, `wsHttpBinding` o `netTcpBinding`.
-- Hosting en IIS: archivo `.svc`, activation en el application pool (Integrated, .NET CLR de Framework), y la sección `system.serviceModel` del `web.config` (`services`, `bindings`, `behaviors`, `protocolMapping`).
-- Instancing `PerCall` en servicios de banco y cobranza. `PerSession` queda para sesión con `wsHttpBinding` o `netTcpBinding`. Concurrency `Multiple` va con código que guarda su estado en la base y en variables locales del llamado.
-- `serviceThrottling`: `maxConcurrentCalls`, `maxConcurrentSessions`, `maxConcurrentInstances`.
-- Seguridad: `Transport` con HTTPS, o `TransportWithMessageCredential` si el cliente manda usuario y clave dentro del SOAP. El certificado se instala en el almacén Local Machine del servidor o se referencia desde Azure Key Vault cuando el host ya está en App Service.
-- Cliente: `ChannelFactory<T>` cuando se controla el binding en código, o el proxy de Add Service Reference cuando el consumidor es otra solución .NET Framework.
-- El host WCF permanece en .NET Framework. .NET 8 consume el servicio con los paquetes `System.ServiceModel.*`. Si el host se migra, el camino es CoreWCF. `WCF-NET-App` es la línea Framework y `GestionDeUsuarios-Net8.0-App` es la línea nueva.
-
-#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width="22" height="22" alt="" /> Azure
-
-Misma solución .NET, publicada hacia estos recursos:
-
-- **Azure App Service.** Publicación desde Visual Studio con el perfil de App Service, plan y resource group, slot `staging` antes de `production`, y Application settings para la cadena de conexión (queda fuera del `web.config` que viaja en el paquete). Always On encendido cuando hay un servicio que mantiene el proceso en caliente.
-- **Azure SQL Database.** Misma base que las apps `BDD-Ejecucion-NET8.0-App`, `BDD-Funciones-Homologacion-App` y `ScriptBddNews`: firewall del servidor, cadena con `Encrypt=True`, y el usuario de aplicación acotado a los permisos del esquema. 
-- **Azure Key Vault.** Secretos y el certificado del endpoint WCF o del HTTPS. En App Service la referencia es `@Microsoft.KeyVault(SecretUri=...)` con la identidad administrada del App Service.
-- **Azure DevOps.** Repo, pipeline YAML con `dotnet restore`, `dotnet build -c Release`, `dotnet test` y `dotnet publish`. El feed de NuGet interno es un Azure Artifacts. La service connection apunta a la suscripción donde está el App Service.
-- **Azure Storage.** Contenedor de blobs en el flujo de `UploadPDFtoBdd`: el PDF entra al blob y en SQL Server queda la ruta y el identificador.
-- **Application Insights.** Connection string en Application settings, y el SDK de la versión de ASP.NET del proyecto, para ver la excepción del servicio y la dependencia SQL en la misma operación.
-- **Azure Service Bus.** Cola o topic, en la línea de `Evento-Tokenizacion-App`: el evento de tokenización se publica en un topic y el consumidor .NET lo procesa con `Azure.Messaging.ServiceBus`, con peek-lock y dead-letter cuando el mensaje queda pendiente de aplicar.
-
-#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="22" height="22" alt="" /> SQL Server e IIS
-
-- Procedimientos, funciones y jobs de SQL Server Agent. `BDD-Funciones-Homologacion-App` es el punto para preguntar cómo se compara el cuerpo de una función entre ambientes antes de ejecutarla.
-- `Microsoft.Data.SqlClient`, pool de conexiones y transacción explícita cuando el movimiento toca más de una tabla (cobranza en `BDD-Ejecucion-NET8.0-App` y `Ejecucion-MVC-NET8.0-App`).
-- IIS: sitio, binding HTTPS, application pool de 64 bits, identidad del pool, y el feature HTTP Activation para el `.svc`.
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="28" height="28" alt="" /> JavaScript
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="22" height="22" alt="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="22" height="22" alt="Node.js" />
-</p>
-
-Cliente y también servidor. Servidor en `Consulti-backend-Express-Node-App`, `SQL-Server-RestAPI-Nodejs` y `Deno-Express-API-App`: Express, rutas REST, acceso a SQL Server o MySQL, y el puerto que consume el front. En navegador, el JavaScript de los fronts Angular, React y Quasar. 
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="28" height="28" alt="" /> TypeScript
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="22" height="22" alt="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" width="22" height="22" alt="Angular" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="22" height="22" alt="React" />
-</p>
-
-Angular en `Consulti-frontend-AngularV17.1`, `frontend-Angularv15-Medico-App` y `Plantilla-Web-Angular`. React en `Pannellum-React-App` y `React-Produnet-App`. Superficie de pregunta: módulos y servicios de Angular, `HttpClient` contra el API .NET, tipado del DTO para que el JSON del back coincida con la interfaz, y la versión de Angular (15 y 17 tienen su propio `angular.json` y su propio compilador).
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="28" height="28" alt="" /> HTML
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="22" height="22" alt="HTML" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="22" height="22" alt="CSS" />
-</p>
-
-Marcado de esos mismos fronts y de las landings (`tapir-landingpage` y los fronts de BRAVE Software). CSS define color, tipo y layout. 
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="28" height="28" alt="" /> Java
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="22" height="22" alt="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="22" height="22" alt="MySQL" />
-</p>
-
-`backend-Streaming-Java-Mysql-App`, `Jakarta-REST-App` y `HadoopJava`. Jakarta REST (JAX-RS) para el API, MySQL como almacén del streaming, y Hadoop en el proyecto de procesamiento. 
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="28" height="28" alt="" /> Go
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="22" height="22" alt="Go" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="22" height="22" alt="Docker" />
-</p>
-
-`Innovalat-Golang-Key-P12` y `Golang-Container`. El primero trabaja llave y certificado PKCS#12 (`.p12`): lectura del almacén, extracción de certificado y clave privada. El segundo es el mismo tipo de servicio empaquetado en imagen. Pregunta típica: dónde vive el `.p12` en runtime y cómo se inyecta la contraseña del almacén fuera del código fuente.
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="28" height="28" alt="" /> Dockerfile
-
-`Golang-Container` y `docker-spark`. Imagen base, `COPY` del binario o del artefacto, `EXPOSE` del puerto y el comando de arranque. 
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="28" height="28" alt="" /> Python
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="22" height="22" alt="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" width="22" height="22" alt="Django" />
-</p>
-
-`App-Django-RestAPI` y `App-SQLModel-Phyton`, más el uso de ONNX en `ONNX-Runtime-WebNN-App`. Django REST Framework para el API, SQLModel para el modelo contra la base, y ONNX Runtime cuando el modelo ya está exportado y solo se infiere. Pregunta típica: el endpoint de Django, el `settings.py` de la base, y en ONNX si la inferencia corre en el navegador (WebNN) o en un proceso Python.
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="28" height="28" alt="" /> PHP
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="22" height="22" alt="PHP" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/symfony/symfony-original.svg" width="22" height="22" alt="Symfony" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/quasar/quasar-original.svg" width="22" height="22" alt="Quasar" />
-</p>
-
-`backend-Symphony-Revision-Vehicular-ANT` es Symfony (el nombre del repo está escrito Symphony). API de revisión vehicular, con el front en `frontend-quasar-Revision-Vehicular-ANT`. Pregunta típica: ruta y controlador de Symfony, el ORM Doctrine, y el contrato JSON que consume Quasar.
-
-## Mas manejo de stacks y frontend
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" width="28" height="28" alt="" /> R
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/coffeescript/coffeescript-original.svg" width="28" height="28" alt="" /> CoffeeScript
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vala/vala-original.svg" width="28" height="28" alt="" /> Vala
-
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" width="28" height="28" alt="" /> Svelte
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" width="22" height="22" alt="Svelte" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="22" height="22" alt="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="22" height="22" alt="HTML" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="22" height="22" alt="CSS" />
-</p>
-
-Aparece en el gráfico de lenguajes del perfil y un front-end lo va a buscar al mismo nivel que Angular y React. Conviene anotar el componente, el store y contra qué API habla.
-
-<details>
-<summary>Filter</summary>
-  - ```Repositories```
-  - ```Language```
-  - ```Select one```
-</details>
-
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Logounir.png" width="26" height="26" alt="" /> Projects UNIR (España)
+
+React en `Pannellum-React-App`.
 
 ```html
 https://github.com/danielaltamirano1993/Pannellum-React-App
@@ -243,6 +95,24 @@ https://github.com/danielaltamirano1993/WalletDB
 
 ## <img src="https://api.iconify.design/mdi/earth.svg?color=%232E7D32" width="26" height="26" alt="" /> Projects ResponsibleTravel (Ecuador)
 
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="28" height="28" alt="" /> Python
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="22" height="22" alt="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" width="22" height="22" alt="Django" />
+</p>
+
+`App-Django-RestAPI` y `App-SQLModel-Phyton`, más el uso de ONNX en `ONNX-Runtime-WebNN-App`. Django REST Framework para el API, SQLModel para el modelo contra la base, y ONNX Runtime cuando el modelo ya está exportado.
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="28" height="28" alt="" /> HTML
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="22" height="22" alt="HTML" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="22" height="22" alt="CSS" />
+</p>
+
+Marcado de `tapir-landingpage` y de los fronts de BRAVE Software. CSS define color, tipo y layout.
+
 ```html
 https://github.com/danielaltamirano1993/ONNX-Runtime-WebNN-App
 ```
@@ -252,6 +122,52 @@ https://github.com/danielaltamirano1993/tapir-landingpage
 ```
 
 ## <img src="https://api.iconify.design/mdi/server.svg?color=%23512BD4" width="26" height="26" alt="" /> Projects NETBY-EC (Ecuador)
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="28" height="28" alt="" /> C#
+
+Stack principal. Superficie comprobable en `WCF-NET-App`, `GestionDeUsuarios-Net8.0-App`, `Ejecucion-MVC-NET8.0-App`, `BDD-Ejecucion-NET8.0-App`, `Dotnet-Banking-.NET-App` y `backend-.NET-Medico-App`. 
+
+Hay dos líneas de runtime: .NET Framework para servicios WCF hospedados en IIS, y .NET 8 para MVC, Web API y ejecución contra base de datos.
+
+#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" width="22" height="22" alt="" /> Visual Studio Professional
+
+- Solución `.sln` con proyectos SDK-style (`net8.0`) y proyectos clásicos de .NET Framework (WCF).
+
+- Web Deploy a IIS o a Azure App Service.
+
+#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuget/nuget-original.svg" width="22" height="22" alt="" /> NuGet
+
+- .NET 8 usa `PackageReference` dentro del `.csproj`. Los proyectos WCF de Framework usan `packages.config` más `HintPath` en las referencias, y ahí aparecen los binding redirects de `web.config` o `app.config` cuando dos paquetes exigen distinta versión de `Newtonsoft.Json` o de `System.Net.Http`.
+
+- Feed privado en Azure Artifacts.
+
+
+#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="22" height="22" alt="" /> WCF
+
+- Modelo ABC: Address, Binding, Contract. El contrato vive en una class library aparte del host para que el cliente y el servicio compartan el ensamblado.
+
+- Instancing `PerCall` en servicios de banco y cobranza. `PerSession` queda para sesión con `wsHttpBinding` o `netTcpBinding`. Concurrency `Multiple` va con código que guarda su estado en la base y en variables locales del llamado.
+
+- Seguridad: `Transport` con HTTPS, o `TransportWithMessageCredential` si el cliente manda usuario y clave dentro del SOAP. 
+
+- El certificado se instala en el almacén Local Machine del servidor o se referencia desde Azure Key Vault cuando el host ya está en App Service.
+
+
+#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width="22" height="22" alt="" /> Azure
+
+Misma solución .NET, publicada hacia estos recursos:
+
+- **Azure App Service.** Publicación desde Visual Studio con el perfil de App Service, plan y resource group, slot `staging` antes de `production`.
+
+- Always On encendido cuando hay un servicio que mantiene el proceso en caliente.
+
+- **Azure Key Vault.** Secretos y el certificado del endpoint WCF o del HTTPS. En App Service la referencia es `@Microsoft.KeyVault(SecretUri=...)` con la identidad administrada del App Service.
+
+- **Azure DevOps.** Repo, pipeline YAML con `dotnet restore`, `dotnet build -c Release`, `dotnet test` y `dotnet publish`. El feed de NuGet interno es un Azure Artifacts. La service connection apunta a la suscripción donde está el App Service.
+
+#### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="22" height="22" alt="" /> SQL Server e IIS
+
+- IIS: sitio, binding HTTPS, application pool de 64 bits, identidad del pool, y el feature HTTP Activation para el `.svc`.
 
 ```html
 https://github.com/danielaltamirano1993/WCF-NET-App
@@ -273,6 +189,14 @@ https://github.com/danielaltamirano1993/App...
 
 ## <img src="https://api.iconify.design/mdi/bank.svg?color=%230D47A1" width="26" height="26" alt="" /> Projects Banco Produbanco (Ecuador)
 
+- **Azure Service Bus.** Cola o topic, en la línea de `Evento-Tokenizacion-App`: el evento de tokenización se publica en un topic y el consumidor .NET lo procesa con `Azure.Messaging.ServiceBus`, con peek-lock y dead-letter cuando el mensaje queda pendiente de aplicar.
+
+- **Azure SQL Database.** Misma base que las apps `BDD-Ejecucion-NET8.0-App`, `BDD-Funciones-Homologacion-App` y `ScriptBddNews`: firewall del servidor, cadena con `Encrypt=True`, y el usuario de aplicación acotado a los permisos del esquema.
+
+- Procedimientos, funciones y jobs de SQL Server Agent. `BDD-Funciones-Homologacion-App` es el punto para preguntar cómo se compara el cuerpo de una función entre ambientes antes de ejecutarla.
+
+- React en `React-Produnet-App`.
+
 ```html
 https://github.com/danielaltamirano1993/Evento-Tokenizacion-App
 ```
@@ -287,6 +211,8 @@ https://github.com/danielaltamirano1993/React-Produnet-App
 
 ## <img src="https://api.iconify.design/mdi/cash-multiple.svg?color=%232E7D32" width="26" height="26" alt="" /> Projects Cobranza PagueYa (Ecuador)
 
+.NET 8 para MVC y ejecución contra base de datos. `Microsoft.Data.SqlClient`, pool de conexiones y transacción explícita cuando el movimiento toca más de una tabla (cobranza en `BDD-Ejecucion-NET8.0-App` y `Ejecucion-MVC-NET8.0-App`).
+
 ```html
 https://github.com/danielaltamirano1993/BDD-Ejecucion-NET8.0-App
 ```
@@ -296,6 +222,8 @@ https://github.com/danielaltamirano1993/Ejecucion-MVC-NET8.0-App
 ```
 
 ## <img src="https://api.iconify.design/mdi/bank.svg?color=%23F57F17" width="26" height="26" alt="" /> Projects Banco Pichincha (Ecuador)
+
+`ScriptBddNews` usa la misma Azure SQL que `BDD-Ejecucion-NET8.0-App` y `BDD-Funciones-Homologacion-App`: firewall del servidor, cadena con `Encrypt=True`, y el usuario de aplicación acotado a los permisos del esquema.
 
 ```html
 https://github.com/danielaltamirano1993/ELT-Pichincha-Sistemas-App
@@ -307,6 +235,8 @@ https://github.com/danielaltamirano1993/ScriptBddNews
 
 ## <img src="https://api.iconify.design/mdi/scale-balance.svg?color=%234E342E" width="26" height="26" alt="" /> Projects Consejo de la Judicatura (Ecuador)
 
+Angular en `Plantilla-Web-Angular`. Módulos y servicios, `HttpClient` contra el API .NET, tipado del DTO para que el JSON del back coincida con la interfaz, y su propio `angular.json` y compilador.
+
 ```html
 https://github.com/danielaltamirano1993/Planification-Judicatura-App
 ```
@@ -316,6 +246,36 @@ https://github.com/danielaltamirano1993/Plantilla-Web-Angular
 ```
 
 ## <img src="https://api.iconify.design/mdi/briefcase.svg?color=%2300897B" width="26" height="26" alt="" /> Projects CONSULTI (Ecuador)
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="28" height="28" alt="" /> Java
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="22" height="22" alt="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="22" height="22" alt="MySQL" />
+</p>
+
+`backend-Streaming-Java-Mysql-App`, `Jakarta-REST-App` y `HadoopJava`. Jakarta REST (JAX-RS) para el API, MySQL como almacén del streaming, y Hadoop en el proyecto de procesamiento.
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="28" height="28" alt="" /> JavaScript
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="22" height="22" alt="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="22" height="22" alt="Node.js" />
+</p>
+
+Cliente y también servidor. Servidor en `Consulti-backend-Express-Node-App`, `SQL-Server-RestAPI-Nodejs` y `Deno-Express-API-App`: Express, rutas REST, acceso a SQL Server o MySQL, y el puerto que consume el front. En navegador, el JavaScript de los fronts Angular, React y Quasar.
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="28" height="28" alt="" /> TypeScript
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="22" height="22" alt="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" width="22" height="22" alt="Angular" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="22" height="22" alt="React" />
+</p>
+
+Angular en `Consulti-frontend-AngularV17.1`, `frontend-Angularv15-Medico-App` y `Plantilla-Web-Angular`. React en `Pannellum-React-App` y `React-Produnet-App`. 
+
+Superficie de pregunta: módulos y servicios de Angular, `HttpClient` contra el API .NET, tipado del DTO para que el JSON del back coincida con la interfaz, y la versión de Angular (15 y 17 tienen su propio `angular.json` y su propio compilador).
 
 ```html
 https://github.com/danielaltamirano1993/backend-Streaming-Java-Mysql-App
@@ -330,6 +290,15 @@ https://github.com/danielaltamirano1993/Consulti-frontend-AngularV17.1
 ```
 
 ## <img src="https://api.iconify.design/mdi/key-variant.svg?color=%236A1B9A" width="26" height="26" alt="" /> Projects Innovalat (Ecuador)
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="28" height="28" alt="" /> Go
+
+
+`Innovalat-Golang-Key-P12` y `Golang-Container`. El primero trabaja llave y certificado PKCS#12 (`.p12`): lectura del almacén, extracción de certificado y clave privada. El segundo es el mismo tipo de servicio empaquetado en imagen. Pregunta típica: dónde vive el `.p12` en runtime y cómo se inyecta la contraseña del almacén fuera del código fuente.
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="28" height="28" alt="" /> Dockerfile
+
+`Golang-Container` y `docker-spark`. Imagen base, `COPY` del binario o del artefacto, `EXPOSE` del puerto y el comando de arranque.
 
 ```html
 https://github.com/danielaltamirano1993/Innovalat-Golang-Key-P12
@@ -351,6 +320,16 @@ https://github.com/danielaltamirano1993/AuraDream-Android-BLE-Terminal-App
 
 ## <img src="https://api.iconify.design/mdi/car.svg?color=%23EF6C00" width="26" height="26" alt="" /> Projects ANT (Ecuador)
 
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="28" height="28" alt="" /> PHP
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="22" height="22" alt="PHP" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/symfony/symfony-original.svg" width="22" height="22" alt="Symfony" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/quasar/quasar-original.svg" width="22" height="22" alt="Quasar" />
+</p>
+
+`backend-Symphony-Revision-Vehicular-ANT` es Symfony (el nombre del repo está escrito Symphony). API de revisión vehicular, con el front en `frontend-quasar-Revision-Vehicular-ANT`. Pregunta típica: ruta y controlador de Symfony, el ORM Doctrine, y el contrato JSON que consume Quasar.
+
 ```html
 https://github.com/danielaltamirano1993/backend-Symphony-Revision-Vehicular-ANT
 ```
@@ -359,7 +338,9 @@ https://github.com/danielaltamirano1993/backend-Symphony-Revision-Vehicular-ANT
 https://github.com/danielaltamirano1993/frontend-quasar-Revision-Vehicular-ANT
 ```
 
-## <img src="https://api.iconify.design/mdi/bank.svg?color=%23B71C1C" width="26" height="26" alt="" /> Projects Apna-Bank (Mumbai) 
+## <img src="https://api.iconify.design/mdi/bank.svg?color=%23B71C1C" width="26" height="26" alt="" /> Projects Apna-Bank (Mumbai)
+
+`Dotnet-Banking-.NET-App` es la línea .NET 8 de esta banca: MVC, Web API y ejecución contra base de datos. `App-SQLModel-Phyton` usa SQLModel para el modelo contra la base.
 
 ```html
 https://github.com/danielaltamirano1993/Dotnet-Banking-.NET-App
@@ -371,6 +352,8 @@ https://github.com/danielaltamirano1993/App-SQLModel-Phyton
 
 ## <img src="https://api.iconify.design/mdi/stethoscope.svg?color=%2300838F" width="26" height="26" alt="" /> Projects SOPTEC-Comunicaciones-App (Ecuador)
 
+`backend-.NET-Medico-App` es el API .NET. Angular 15 en `frontend-Angularv15-Medico-App`: módulos y servicios, `HttpClient` contra ese API, tipado del DTO para que el JSON del back coincida con la interfaz, y su propio `angular.json` y compilador.
+
 ```html
 https://github.com/danielaltamirano1993/frontend-Angularv15-Medico-App
 ```
@@ -380,6 +363,8 @@ https://github.com/danielaltamirano1993/backend-.NET-Medico-App
 ```
 
 ## <img src="https://api.iconify.design/logos/brave.svg" width="26" height="26" alt="" /> Projects BRAVE Software (California)
+
+Marcado de estos fronts. CSS define color, tipo y layout.
 
 ```html
 https://github.com/danielaltamirano1993/How-to-Trade-Bitcoin-Futures-_-Crypto-Futures-Trading-Front-End
@@ -425,6 +410,8 @@ https://github.com/danielaltamirano1993/PORTAL_FINAL
 
 ## <img src="https://api.iconify.design/mdi/chart-line.svg?color=%231565C0" width="26" height="26" alt="" /> Projects estrategia.ec (Ecuador)
 
+**Azure Storage.** Contenedor de blobs en el flujo de `UploadPDFtoBdd`: el PDF entra al blob y en SQL Server queda la ruta y el identificador.
+
 ```html
 https://github.com/danielaltamirano1993/estrategia.ec
 ```
@@ -455,6 +442,8 @@ https://github.com/danielaltamirano1993/App-Aplus-Database
 
 ## <img src="https://api.iconify.design/mdi/api.svg?color=%23E65100" width="26" height="26" alt="" /> Projects API-Rest-Full
 
+`Deno-Express-API-App` y `SQL-Server-RestAPI-Nodejs`: Express, rutas REST, acceso a SQL Server o MySQL, y el puerto que consume el front. `Jakarta-REST-App` expone el API con Jakarta REST (JAX-RS). `App-Django-RestAPI`: Django REST Framework, el endpoint y el `settings.py` de la base.
+
 ```html
 https://github.com/danielaltamirano1993/Deno-Express-API-App
 ```
@@ -477,6 +466,8 @@ https://github.com/danielaltamirano1993/LowDbRestAPI
 
 ## <img src="https://api.iconify.design/mdi/console.svg?color=%2337474F" width="26" height="26" alt="" /> Projects SHELL
 
+`HadoopJava` es el procesamiento con Hadoop. `docker-spark`: imagen base, `COPY` del binario o del artefacto, `EXPOSE` del puerto y el comando de arranque.
+
 ```html
 https://github.com/danielaltamirano1993/HadoopJava
 ```
@@ -487,6 +478,15 @@ https://github.com/danielaltamirano1993/docker-spark
 
 ## <img src="https://api.iconify.design/mdi/account-circle.svg?color=%233949AB" width="26" height="26" alt="" /> Projects Portfolio
 
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" width="28" height="28" alt="" /> Svelte
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" width="22" height="22" alt="Svelte" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="22" height="22" alt="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="22" height="22" alt="HTML" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="22" height="22" alt="CSS" />
+</p>
+
 ```html
 https://github.com/danielaltamirano1993/Daniel-Portfolio
 ```
@@ -495,8 +495,14 @@ https://github.com/danielaltamirano1993/Daniel-Portfolio
 https://github.com/danielaltamirano1993/Personal-Portfolios-App
 ```
 
-## <img src="https://api.iconify.design/mdi/book-open-variant.svg?color=%232E7D32" width="26" height="26" alt="" /> STUDY 
+## <img src="https://api.iconify.design/mdi/book-open-variant.svg?color=%232E7D32" width="26" height="26" alt="" /> STUDY
 
 ```html
 https://github.com/danielaltamirano1993/Best-Practiques-Logic-App
 ```
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" width="28" height="28" alt="" /> R
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/coffeescript/coffeescript-original.svg" width="28" height="28" alt="" /> CoffeeScript
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vala/vala-original.svg" width="28" height="28" alt="" /> Vala
